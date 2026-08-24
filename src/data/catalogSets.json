@@ -1,0 +1,462 @@
+{
+  "defaultSetId": "muerteada-2026",
+  "sets": [
+    {
+      "id": "muerteada-2026",
+      "label": "Muerteada 2026"
+    },
+    {
+      "id": "todos",
+      "label": "Todos"
+    }
+  ],
+  "entries": {
+    "muerteada-2026": [
+      {
+        "id": "m26-los-rancheros",
+        "title": "Los rancheros",
+        "scoreId": "los-rancheros-banda-reyna-de-oaxaca"
+      },
+      {
+        "id": "m26-xoj-team",
+        "title": "Xoj team",
+        "scoreId": "xooj-teem-banda-puro-santa-rosa"
+      },
+      {
+        "id": "m26-el-kraken",
+        "title": "El kraken",
+        "scoreId": "el-kraken-banda-aires-del-pacifico"
+      },
+      {
+        "id": "m26-septiembre-18",
+        "title": "Septiembre 18",
+        "scoreId": "septiembre-18"
+      },
+      {
+        "id": "m26-amores-de-montana",
+        "title": "Amores de montaña",
+        "scoreId": "amores-de-montana"
+      },
+      {
+        "id": "m26-son-revolucionario",
+        "title": "Son revolucionario",
+        "scoreId": "son-revolucionario-banda-tromba-sinaoense"
+      },
+      {
+        "id": "m26-son-del-huesero",
+        "title": "Son del huesero",
+        "scoreId": "el-son-del-huesero-banda-la-huesera"
+      },
+      {
+        "id": "m26-reyes-muerteros",
+        "title": "Reyes muerteros",
+        "scoreId": "los-reyes-muerteros"
+      },
+      {
+        "id": "m26-abajenos",
+        "title": "Abajeños",
+        "scoreId": "somos-abajenos-banda-bucanera"
+      },
+      {
+        "id": "m26-el-zombie",
+        "title": "El zombie",
+        "scoreId": "zombie-monstruoso-partes"
+      },
+      {
+        "id": "m26-los-istlahuacas",
+        "title": "Los istlahuacas",
+        "scoreId": "los-ixtlahuaca"
+      },
+      {
+        "id": "m26-la-japonesita",
+        "title": "La japonesita",
+        "scoreId": "la-japonesita-banda-perla-morada"
+      },
+      {
+        "id": "m26-fue-en-un-cafe",
+        "title": "Fue en un café",
+        "scoreId": "fue-en-un-cafe-banda-puro-santa-rosa"
+      },
+      {
+        "id": "m26-5-de-te",
+        "title": "5 de te",
+        "scoreId": "5-de-te-chuy-lizarraga"
+      },
+      {
+        "id": "m26-jinetes",
+        "title": "Jinetes",
+        "scoreId": "jinetes"
+      },
+      {
+        "id": "m26-rango",
+        "title": "Rango",
+        "scoreId": "rango"
+      },
+      {
+        "id": "m26-payaso-de-rodeo",
+        "title": "Payaso de rodeo",
+        "scoreId": "el-payaso-de-rodeo-banda-la-trakatera"
+      },
+      {
+        "id": "m26-olvidarte-nunca",
+        "title": "Olvidarte nunca",
+        "scoreId": "olvidarte-nunca"
+      },
+      {
+        "id": "m26-la-calavera",
+        "title": "La Calavera",
+        "scoreId": "la-calavera-banda-imperial-version-2"
+      },
+      {
+        "id": "m26-el-venado",
+        "title": "El venado",
+        "scoreId": "el-venado-banda-trakatera-instrumental"
+      },
+      {
+        "id": "m26-el-gallo-viejo",
+        "title": "El gallo viejo",
+        "scoreId": "el-gallo-viejo-banda-bucanera"
+      },
+      {
+        "id": "m26-el-sol-no-regresa",
+        "title": "El sol no regresa",
+        "scoreId": "el-sol-no-regresa"
+      },
+      {
+        "id": "m26-perfecta",
+        "title": "Perfecta",
+        "scoreId": "perfecta-banda-pequena-del-valle-ft-banda-la-de-naza"
+      },
+      {
+        "id": "m26-ilusion-98",
+        "title": "Ilusión 98",
+        "scoreId": "ilusion-98-banda-perla-de-michoacan"
+      },
+      {
+        "id": "m26-polka-tuba",
+        "title": "Polka tuba",
+        "scoreId": "polka-para-tuba-banda-reyna-de-huajuapan"
+      },
+      {
+        "id": "m26-esferas-del-dragon",
+        "title": "Esferas del dragón",
+        "scoreId": "las-esferas-del-dragon-banda-reyna-de-huajuapan"
+      },
+      {
+        "id": "m26-the-throoper",
+        "title": "The throoper",
+        "scoreId": "the-trooper-banda-11-pueblos"
+      },
+      {
+        "id": "m26-el-cable",
+        "title": "El cable",
+        "scoreId": "el-cable-banda-madre-sinaloense"
+      },
+      {
+        "id": "m26-las-mujeres-lo-bailan-bien",
+        "title": "Las mujeres lo bailan bien",
+        "scoreId": "las-mujeres-lo-bailan-bien-partes"
+      },
+      {
+        "id": "m26-la-brujita",
+        "title": "La brujita",
+        "scoreId": "la-brujita"
+      },
+      {
+        "id": "m26-el-coyotito",
+        "title": "El coyotito",
+        "scoreId": "el-coyotito"
+      },
+      {
+        "id": "m26-la-negra-tete",
+        "title": "La negra tete",
+        "scoreId": "la-negra-tete-banda-la-prestigiada-ft-la-tromba-sinaloense"
+      },
+      {
+        "id": "m26-ojos-brujos",
+        "title": "Ojos brujos",
+        "scoreId": "pequena-de-ojos-brujos-banda-la-costena-by-jaime-m-h"
+      },
+      {
+        "id": "m26-tecateando",
+        "title": "Tecateando",
+        "scoreId": "tecateando-banda-el-recodo"
+      },
+      {
+        "id": "m26-marmotas",
+        "title": "Marmotas",
+        "scoreId": "marmotas"
+      },
+      {
+        "id": "m26-tuba-gedionda",
+        "title": "Tuba gedionda",
+        "scoreId": "la-tuba-hedionda-banda-tierra-mojada"
+      },
+      {
+        "id": "m26-el-rey",
+        "title": "El rey",
+        "scoreId": "el-rey-el-coyote"
+      },
+      {
+        "id": "m26-el-buey-de-la-barranca",
+        "title": "El buey de la barranca",
+        "scoreId": "el-buey-de-la-barranca-partes"
+      },
+      {
+        "id": "m26-a-donde-vayas-ire",
+        "title": "A donde vayas ire",
+        "scoreId": "a-donde-vayas-ire"
+      },
+      {
+        "id": "m26-los-tiliches",
+        "title": "Los tiliches",
+        "scoreId": "los-tiliches"
+      },
+      {
+        "id": "m26-el-colibri",
+        "title": "El colibrí",
+        "scoreId": "el-colibri"
+      },
+      {
+        "id": "m26-la-danza-de-la-chiva",
+        "title": "La danza de la chiva",
+        "scoreId": "la-danza-de-la-chiva"
+      },
+      {
+        "id": "m26-los-fuegos",
+        "title": "Los fuegos",
+        "scoreId": "los-fuegos"
+      },
+      {
+        "id": "m26-la-calandria-y-los-correcaminos",
+        "title": "La calandria y los correcaminos",
+        "scoreId": "la-calandria-y-los-correcaminos"
+      },
+      {
+        "id": "m26-el-cumbianchero",
+        "title": "El cumbianchero",
+        "scoreId": "el-cumbianchero"
+      },
+      {
+        "id": "m26-asereje",
+        "title": "Asereje",
+        "scoreId": "asereje"
+      },
+      {
+        "id": "m26-1-de-noviembre",
+        "title": "1 de noviembre",
+        "scoreId": "1-de-noviembre"
+      },
+      {
+        "id": "m26-adolorido-del-corazon",
+        "title": "Adolorido del corazón",
+        "scoreId": "adolorido-del-corazon"
+      },
+      {
+        "id": "m26-el-alacran",
+        "title": "El alacrán",
+        "scoreId": "el-alacran"
+      },
+      {
+        "id": "m26-pachanga-muertera",
+        "title": "Pachanga muertera",
+        "scoreId": "pachanga-muertera"
+      },
+      {
+        "id": "m26-no-se-vivir-si-no-es-contigo",
+        "title": "No se vivir si no es contigo",
+        "scoreId": "no-se-vivir-si-no-es-contigo"
+      },
+      {
+        "id": "m26-el-pirata",
+        "title": "El pirata",
+        "scoreId": "el-pirata"
+      },
+      {
+        "id": "m26-corazon-partio",
+        "title": "Corazón partío",
+        "scoreId": "corazon-partio-banda-puro-santa-rosa-ft-banda-aires-del-pacifico"
+      },
+      {
+        "id": "m26-trakarosa",
+        "title": "Trakarosa",
+        "scoreId": "trakarosa"
+      },
+      {
+        "id": "m26-el-payaso",
+        "title": "El payaso",
+        "scoreId": "el-payaso-de-rodeo-banda-la-trakatera"
+      },
+      {
+        "id": "m26-pican-pican-los-mosquitos",
+        "title": "Pican pican los mosquitos",
+        "scoreId": "los-mosquitos-pican-pican-trakatera"
+      },
+      {
+        "id": "m26-la-ultima-pachanga",
+        "title": "La última pachanga",
+        "scoreId": "la-ultima-pachanga"
+      },
+      {
+        "id": "m26-el-inigualable",
+        "title": "El inigualable",
+        "scoreId": "el-inigualable"
+      },
+      {
+        "id": "m26-el-vagabundo",
+        "title": "El vagabundo",
+        "scoreId": "el-vagabundo"
+      },
+      {
+        "id": "m26-por-que-te-vas",
+        "title": "Por qué te vas",
+        "scoreId": "por-que-te-vas"
+      },
+      {
+        "id": "m26-el-italiano",
+        "title": "El italiano",
+        "scoreId": "el-italiano"
+      },
+      {
+        "id": "m26-el-vuelo-del-abejorro",
+        "title": "El vuelo del abejorro",
+        "scoreId": "el-vuelo-del-abejorro-banda-tierra-mojada-marco-flores"
+      },
+      {
+        "id": "m26-trinkera",
+        "title": "Trinkera",
+        "scoreId": "trinkera"
+      },
+      {
+        "id": "m26-que-siga-la-danza",
+        "title": "Que siga la danza",
+        "scoreId": "que-siga-la-danza"
+      },
+      {
+        "id": "m26-carnavalesco",
+        "title": "Carnavalesco",
+        "scoreId": "carnavalesco"
+      },
+      {
+        "id": "m26-esos-bajos",
+        "title": "Esos bajos",
+        "scoreId": "esos-bajos-marcha"
+      },
+      {
+        "id": "m26-candela-verde",
+        "title": "Candela verde",
+        "scoreId": "candela-verde-banda-bucanera"
+      },
+      {
+        "id": "m26-yo-te-amo",
+        "title": "Yo te amo",
+        "scoreId": "yo-te-amo"
+      },
+      {
+        "id": "m26-quitate-la-falda",
+        "title": "Quítate la falda",
+        "scoreId": "quitate-la-falda"
+      },
+      {
+        "id": "m26-la-secretaria",
+        "title": "La secretaria",
+        "scoreId": "la-secretaria"
+      },
+      {
+        "id": "m26-ejercito-ranchero",
+        "title": "Ejército ranchero",
+        "scoreId": "ejercito-ranchero"
+      },
+      {
+        "id": "m26-burro-loco",
+        "title": "Burro loco",
+        "scoreId": "burro-loco"
+      },
+      {
+        "id": "m26-naranja-dulce",
+        "title": "Naranja dulce",
+        "scoreId": "naranja-dulce"
+      },
+      {
+        "id": "m26-testarudos",
+        "title": "Testarudos",
+        "scoreId": "testarudos"
+      },
+      {
+        "id": "m26-la-pedota",
+        "title": "La pedota",
+        "scoreId": "la-pedota"
+      },
+      {
+        "id": "m26-conjunto-mar-azul",
+        "title": "Conjunto mar azul",
+        "scoreId": "conjunto-mar-azul"
+      },
+      {
+        "id": "m26-virgen-del-tepeyac",
+        "title": "Virgen del tepeyac",
+        "scoreId": "la-virgen-del-tepeyac-odisea"
+      },
+      {
+        "id": "m26-corazon-de-texas",
+        "title": "Corazón de texas",
+        "scoreId": "corazon-de-texas"
+      },
+      {
+        "id": "m26-dios-nunca-muere",
+        "title": "Dios nunca muere",
+        "scoreId": "dios-nunca-muere"
+      },
+      {
+        "id": "m26-virgen-de-la-macarena",
+        "title": "Virgen de la macarena",
+        "scoreId": "la-virgen-de-la-macarena"
+      },
+      {
+        "id": "m26-el-nino-perdido",
+        "title": "El niño perdido",
+        "scoreId": "el-nino-perdido"
+      },
+      {
+        "id": "m26-guitarras-de-paracho",
+        "title": "Guitarras de paracho",
+        "scoreId": "guitarras-de-paracho"
+      },
+      {
+        "id": "m26-selva-tropical",
+        "title": "Selva tropical",
+        "scoreId": "selva-tropical"
+      },
+      {
+        "id": "m26-el-chupon",
+        "title": "El chupón",
+        "scoreId": "el-son-del-chupon"
+      },
+      {
+        "id": "m26-el-zanate",
+        "title": "El zanate",
+        "scoreId": "son-del-zanate-la-unica-de-guerrero-sc"
+      },
+      {
+        "id": "m26-carnaval-putleco",
+        "title": "Carnaval putleco",
+        "scoreId": "carnaval-putleco"
+      },
+      {
+        "id": "m26-pelea-de-gallos",
+        "title": "Pelea de gallos",
+        "scoreId": "pelea-de-gallos"
+      },
+      {
+        "id": "m26-chinelo-carnavalero",
+        "title": "Chinelo carnavalero",
+        "scoreId": "chinelo-carnavalero"
+      },
+      {
+        "id": "m26-el-tlacololero",
+        "title": "El tlacololero",
+        "scoreId": "el-tlacololero"
+      }
+    ]
+  }
+}
