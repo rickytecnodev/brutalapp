@@ -1,10 +1,17 @@
 /** Cache Storage dedicado a partituras guardadas por el usuario (no precache). */
 export const SCORES_CACHE_NAME = 'scores-offline-v1'
 
+/**
+ * Resuelve la URL pública del PDF respetando el `base` de Vite
+ * (necesario en GitHub Pages: /brutalapp/ y no la raíz del dominio).
+ */
 export function resolveScoreUrl(pdfPath: string): string {
-  const clean = pdfPath.startsWith('/') ? pdfPath : `/${pdfPath}`
-  return new URL(clean, window.location.origin).href
+  const clean = pdfPath.replace(/^\//, '')
+  const base = import.meta.env.BASE_URL || './'
+  const pageBase = window.location.href.replace(/#.*$/, '')
+  return new URL(clean, new URL(base, pageBase)).href
 }
+
 
 export async function isCacheApiAvailable(): Promise<boolean> {
   return typeof window !== 'undefined' && 'caches' in window

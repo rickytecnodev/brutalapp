@@ -1,6 +1,6 @@
 <template>
   <div v-if="visible" class="install card-surface" role="status">
-    <img class="install__logo" src="/icons/logo.png" alt="" width="40" height="40" />
+    <img class="install__logo" :src="`${baseUrl}icons/logo.png`" alt="" width="40" height="40" />
     <div class="install__copy">
       <strong>Instalar Brutal</strong>
       <p v-if="isIos">En Safari: Compartir → “Añadir a pantalla de inicio”.</p>
@@ -17,6 +17,7 @@
 import { computed, onMounted, onUnmounted, ref } from 'vue'
 
 const STORAGE_KEY = 'brutal-install-dismissed'
+const baseUrl = import.meta.env.BASE_URL
 const deferred = ref<BeforeInstallPromptEvent | null>(null)
 const dismissed = ref(false)
 const isStandalone = ref(false)

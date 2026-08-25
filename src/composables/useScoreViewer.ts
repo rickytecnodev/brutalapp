@@ -17,10 +17,14 @@ function clearObjectUrl(): void {
   }
 }
 
-async function assertPdfReachable(url: string): Promise<void> {
+async function assertPdfReachable(url: string, missingPdf?: boolean): Promise<void> {
   const response = await fetch(url, { method: 'GET', cache: 'no-store' })
   if (!response.ok) {
-    throw new Error('PDF pendiente: aún no está en public/scores/.')
+    throw new Error(
+      missingPdf
+        ? 'PDF pendiente: aún no está en public/scores/.'
+        : `No se pudo cargar el PDF (${response.status}).`,
+    )
   }
   // Consumir poco: no hace falta el body completo aquí; pdf.js vuelve a pedir la URL.
   try {
@@ -45,7 +49,7 @@ async function resolveSource(score: Score): Promise<string> {
   }
 
   const url = resolveScoreUrl(score.pdf)
-  await assertPdfReachable(url)
+  await assertPdfReachable(url, score.missingPdf)
   return url
 }
 

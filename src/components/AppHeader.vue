@@ -2,7 +2,7 @@
   <header class="header">
     <div class="header__top">
       <RouterLink to="/" class="brand-block">
-        <img class="brand-logo" src="/icons/logo.png" alt="Banda La Brutal" width="48" height="48" />
+        <img class="brand-logo" :src="`${baseUrl}icons/logo.png`" alt="Banda La Brutal" width="48" height="48" />
         <span class="brand-text">
           <span class="brand">Brutal</span>
           <span class="brand-sub">Repertorio</span>
@@ -21,6 +21,8 @@ import ThemeToggle from '@/components/ThemeToggle.vue'
 defineProps<{
   subtitle?: string
 }>()
+
+const baseUrl = import.meta.env.BASE_URL
 </script>
 
 <style scoped>
