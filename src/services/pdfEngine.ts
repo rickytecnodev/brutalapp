@@ -9,13 +9,22 @@ export function ensurePdfWorker(): void {
   workerReady = true
 }
 
-export async function loadPdfDocument(src: string): Promise<PDFDocumentProxy> {
+export type PdfSource = string | ArrayBuffer | Uint8Array
+
+export async function loadPdfDocument(src: PdfSource): Promise<PDFDocumentProxy> {
   ensurePdfWorker()
+
   const task = getDocument({
-    url: src,
+    ...(typeof src === 'string' ? { url: src } : { data: src }),
     withCredentials: false,
     useSystemFonts: true,
+    // Streaming / rangos: empieza a parsear sin esperar el archivo completo
+    disableStream: false,
+    disableAutoFetch: false,
+    // Menos trabajo en el hilo principal al inicio
+    isEvalSupported: false,
   })
+
   return task.promise
 }
 
@@ -26,4 +35,10 @@ export async function releasePdfDocument(doc: PDFDocumentProxy | null): Promise<
   } catch {
     // ignore cleanup errors on tear-down
   }
+}
+
+/** DPR alto en móviles hace canvas enormes y lentos. */
+export function renderPixelRatio(): number {
+  const dpr = window.devicePixelRatio || 1
+  return Math.min(2, Math.max(1, dpr))
 }

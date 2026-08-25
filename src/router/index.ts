@@ -11,9 +11,7 @@ const router = createRouter({
     },
     {
       path: '/offline',
-      name: 'offline',
-      component: () => import('@/views/OfflineView.vue'),
-      meta: { title: 'Guardadas offline' },
+      redirect: '/',
     },
     {
       path: '/score/:id',

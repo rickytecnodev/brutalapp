@@ -2,7 +2,6 @@
   <div class="page rise-in">
     <AppHeader :subtitle="headerSubtitle" />
     <InstallPrompt />
-    <SetSelector v-model="activeSetId" :options="setOptions" />
     <SearchBar v-model="query" />
     <div class="toolbar">
       <div class="stats">
@@ -35,13 +34,12 @@ import { computed } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import InstallPrompt from '@/components/InstallPrompt.vue'
 import SearchBar from '@/components/SearchBar.vue'
-import SetSelector from '@/components/SetSelector.vue'
 import ScoreList from '@/components/ScoreList.vue'
 import DownloadProgressPanel from '@/components/DownloadProgressPanel.vue'
 import { useRepertoire } from '@/composables/useRepertoire'
 import { useOfflineScores } from '@/composables/useOfflineScores'
 
-const { query, filteredScores, totalCount, activeSetId, activeSet, setOptions } = useRepertoire()
+const { query, filteredScores, totalCount, activeSet } = useRepertoire()
 const { offlineCount, isOffline, saveMany, batch, batchPercent } = useOfflineScores()
 
 const headerSubtitle = computed(() => {

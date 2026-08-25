@@ -102,7 +102,7 @@ button {
   flex: 1;
   width: min(920px, 100%);
   margin: 0 auto;
-  padding: 1rem 1rem calc(5.5rem + var(--safe-bottom));
+  padding: 1rem 1rem calc(1.25rem + var(--safe-bottom));
 }
 
 .card-surface {

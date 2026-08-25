@@ -24,21 +24,10 @@ function missingPdfMessage(score: Score): string {
   return `El PDF no está disponible por ahora. La tonalidad es ${tono}.`
 }
 
-async function assertPdfReachable(url: string, score: Score): Promise<void> {
-  const response = await fetch(url, { method: 'GET', cache: 'no-store' })
-  if (!response.ok) {
-    if (score.missingPdf || response.status === 404) {
-      throw new Error(missingPdfMessage(score))
-    }
-    throw new Error(`No se pudo cargar el PDF (${response.status}).`)
-  }
-  try {
-    await response.body?.cancel()
-  } catch {
-    // ignore
-  }
-}
-
+/**
+ * Resuelve la fuente sin descargar el PDF completo aquí.
+ * pdf.js hace una sola descarga (con streaming).
+ */
 async function resolveSource(score: Score): Promise<string> {
   if (score.missingPdf) {
     throw new Error(missingPdfMessage(score))
@@ -57,9 +46,7 @@ async function resolveSource(score: Score): Promise<string> {
     throw new Error('Sin conexión y esta partitura no está guardada offline.')
   }
 
-  const url = resolveScoreUrl(score.pdf)
-  await assertPdfReachable(url, score)
-  return url
+  return resolveScoreUrl(score.pdf)
 }
 
 export function useScoreViewer() {

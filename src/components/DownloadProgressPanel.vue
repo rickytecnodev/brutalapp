@@ -69,7 +69,7 @@ watch(
 .panel {
   position: fixed;
   left: 50%;
-  bottom: calc(4.6rem + env(safe-area-inset-bottom, 0px));
+  bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
   transform: translateX(-50%);
   width: min(920px, calc(100% - 1.2rem));
   z-index: 60;

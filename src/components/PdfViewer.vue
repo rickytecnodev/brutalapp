@@ -27,17 +27,19 @@
         </div>
         <div v-else-if="booting" class="state">
           <div class="spinner" aria-hidden="true" />
-          <p>Preparando partitura…</p>
+          <p>Cargando partitura…</p>
         </div>
         <div v-else class="pages" :style="{ width: `${pageWidth}px` }">
-          <canvas
+          <div
             v-for="page in pageCount"
             :key="page"
-            :ref="(el) => setCanvasRef(page, el)"
-            class="page-canvas"
-          />
+            class="page-slot"
+            :style="{ minHeight: `${pageHeights[page - 1] || 240}px` }"
+          >
+            <canvas :ref="(el) => setCanvasRef(page, el)" class="page-canvas" />
+          </div>
           <p v-if="renderProgress < pageCount" class="progress">
-            Renderizando {{ renderProgress }}/{{ pageCount }}
+            Cargando páginas {{ renderProgress }}/{{ pageCount }}…
           </p>
         </div>
       </div>
@@ -69,8 +71,8 @@ import {
   watch,
   type ComponentPublicInstance,
 } from 'vue'
-import type { PDFDocumentProxy } from 'pdfjs-dist'
-import { loadPdfDocument, releasePdfDocument } from '@/services/pdfEngine'
+import type { PDFDocumentProxy, PDFPageProxy, RenderTask } from 'pdfjs-dist'
+import { loadPdfDocument, releasePdfDocument, renderPixelRatio } from '@/services/pdfEngine'
 
 const props = defineProps<{
   open: boolean
@@ -81,7 +83,6 @@ const props = defineProps<{
 
 const emit = defineEmits<{ close: []; retry: [] }>()
 
-/** Solo piso técnico para no romper el canvas; el usuario no ve botones bloqueados. */
 const minScale = 0.15
 const maxScale = 8
 const scaleStep = 0.15
@@ -92,10 +93,13 @@ const pageCount = ref(0)
 const currentPage = ref(1)
 const scale = ref(1)
 const pageWidth = ref(0)
+const pageHeights = ref<number[]>([])
 const booting = ref(false)
 const bootError = ref<string | null>(null)
 const renderProgress = ref(0)
 const canvasMap = new Map<number, HTMLCanvasElement>()
+const renderedAt = new Map<number, number>()
+const activeRenders = new Map<number, RenderTask>()
 
 let renderToken = 0
 let scrollLocked = false
@@ -113,56 +117,114 @@ function fitScale(viewportWidth: number): number {
   if (!host) return 1
   const available = Math.max(280, host.clientWidth - 24)
   const fitted = available / viewportWidth
-  // Ajuste inicial a pantalla, sin empujar al tope de zoom del usuario.
   return Math.min(4, Math.max(0.25, fitted))
+}
+
+function cancelActiveRenders(): void {
+  for (const task of activeRenders.values()) {
+    try {
+      task.cancel()
+    } catch {
+      // ignore
+    }
+  }
+  activeRenders.clear()
 }
 
 async function destroyDoc(): Promise<void> {
   renderToken += 1
+  cancelActiveRenders()
   canvasMap.clear()
+  renderedAt.clear()
   const current = doc.value
   doc.value = null
   await releasePdfDocument(current)
   pageCount.value = 0
   currentPage.value = 1
   renderProgress.value = 0
+  pageHeights.value = []
 }
 
-async function renderAllPages(token: number): Promise<void> {
+async function renderPage(pageNum: number, token: number, force = false): Promise<void> {
   const pdf = doc.value
-  if (!pdf) return
+  if (!pdf || token !== renderToken) return
+  if (!force && renderedAt.get(pageNum) === scale.value) return
 
-  await nextTick()
-  renderProgress.value = 0
+  const canvas = canvasMap.get(pageNum)
+  if (!canvas) return
 
-  for (let pageNum = 1; pageNum <= pdf.numPages; pageNum += 1) {
-    if (token !== renderToken) return
-    const page = await pdf.getPage(pageNum)
-    const base = page.getViewport({ scale: 1 })
-    if (pageNum === 1) {
-      pageWidth.value = Math.floor(base.width * scale.value)
+  const prev = activeRenders.get(pageNum)
+  if (prev) {
+    try {
+      prev.cancel()
+    } catch {
+      // ignore
     }
-    const viewport = page.getViewport({ scale: scale.value })
-    const canvas = canvasMap.get(pageNum)
-    if (!canvas) continue
+    activeRenders.delete(pageNum)
+  }
 
-    const context = canvas.getContext('2d', { alpha: false })
-    if (!context) continue
+  let page: PDFPageProxy
+  try {
+    page = await pdf.getPage(pageNum)
+  } catch {
+    return
+  }
+  if (token !== renderToken) return
 
-    const outputScale = window.devicePixelRatio || 1
-    canvas.width = Math.floor(viewport.width * outputScale)
-    canvas.height = Math.floor(viewport.height * outputScale)
-    canvas.style.width = `${Math.floor(viewport.width)}px`
-    canvas.style.height = `${Math.floor(viewport.height)}px`
-    context.setTransform(outputScale, 0, 0, outputScale, 0, 0)
+  const viewport = page.getViewport({ scale: scale.value })
+  const context = canvas.getContext('2d', { alpha: false })
+  if (!context) return
 
-    await page.render({
-      canvas,
-      canvasContext: context,
-      viewport,
-    }).promise
+  const outputScale = renderPixelRatio()
+  canvas.width = Math.floor(viewport.width * outputScale)
+  canvas.height = Math.floor(viewport.height * outputScale)
+  canvas.style.width = `${Math.floor(viewport.width)}px`
+  canvas.style.height = `${Math.floor(viewport.height)}px`
+  context.setTransform(outputScale, 0, 0, outputScale, 0, 0)
 
-    renderProgress.value = pageNum
+  const task = page.render({
+    canvas,
+    canvasContext: context,
+    viewport,
+  })
+  activeRenders.set(pageNum, task)
+
+  try {
+    await task.promise
+    if (token !== renderToken) return
+    renderedAt.set(pageNum, scale.value)
+    const heights = pageHeights.value.slice()
+    heights[pageNum - 1] = Math.floor(viewport.height)
+    pageHeights.value = heights
+    if (pageNum === 1) {
+      pageWidth.value = Math.floor(viewport.width)
+    }
+    renderProgress.value = Math.max(renderProgress.value, pageNum)
+  } catch (err) {
+    const name = err instanceof Error ? err.name : ''
+    if (name !== 'RenderingCancelledException') {
+      // ignore soft failures per page
+    }
+  } finally {
+    activeRenders.delete(pageNum)
+  }
+}
+
+async function renderAround(center: number, token: number): Promise<void> {
+  const total = pageCount.value
+  if (!total) return
+  const order = [center]
+  for (let d = 1; d < total; d += 1) {
+    if (center - d >= 1) order.push(center - d)
+    if (center + d <= total) order.push(center + d)
+  }
+  for (const pageNum of order) {
+    if (token !== renderToken) return
+    await renderPage(pageNum, token)
+    // Ceder el hilo para no congelar el scroll/zoom
+    await new Promise<void>((resolve) => {
+      window.requestAnimationFrame(() => resolve())
+    })
   }
 }
 
@@ -186,13 +248,22 @@ async function boot(): Promise<void> {
     const base = first.getViewport({ scale: 1 })
     scale.value = Number(fitScale(base.width).toFixed(2))
     pageWidth.value = Math.floor(base.width * scale.value)
+    const fittedHeight = Math.floor(base.height * scale.value)
+    pageHeights.value = Array.from({ length: pdf.numPages }, () => fittedHeight)
 
     booting.value = false
     const token = ++renderToken
     await nextTick()
-    await renderAllPages(token)
+    // Primera página ya; el resto progresivo
+    await renderPage(1, token, true)
+    void renderAround(1, token)
   } catch (err) {
-    bootError.value = err instanceof Error ? err.message : 'No se pudo renderizar el PDF.'
+    const message = err instanceof Error ? err.message : 'No se pudo renderizar el PDF.'
+    if (message.includes('Missing PDF') || message.includes('Unexpected server response')) {
+      bootError.value = 'No se encontró el PDF o no se pudo descargar.'
+    } else {
+      bootError.value = message
+    }
     booting.value = false
   }
 }
@@ -221,6 +292,8 @@ function goPage(delta: number): void {
       scrollLocked = false
     }, 400)
   }
+  const token = renderToken
+  void renderAround(next, token)
 }
 
 function onScroll(): void {
@@ -235,7 +308,10 @@ function onScroll(): void {
       closest = page
     }
   }
-  currentPage.value = closest
+  if (closest !== currentPage.value) {
+    currentPage.value = closest
+    void renderAround(closest, renderToken)
+  }
 }
 
 function onKey(event: KeyboardEvent): void {
@@ -260,9 +336,12 @@ watch(
 
 watch(scale, async () => {
   if (!props.open || !doc.value || booting.value) return
+  renderedAt.clear()
+  renderProgress.value = 0
   const token = ++renderToken
   await nextTick()
-  await renderAllPages(token)
+  await renderPage(currentPage.value, token, true)
+  void renderAround(currentPage.value, token)
 })
 
 watch(scrollerRef, (el, prev) => {
@@ -395,6 +474,14 @@ onBeforeUnmount(() => {
   display: grid;
   gap: 0.75rem;
   justify-items: center;
+}
+
+.page-slot {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background: #1a1612;
+  border-radius: 4px;
 }
 
 .page-canvas {
