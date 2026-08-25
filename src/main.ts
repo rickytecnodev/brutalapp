@@ -17,8 +17,9 @@ createApp(App).use(router).mount('#app')
 const warmPdf = (): void => {
   void import('./services/pdfEngine').then((m) => m.ensurePdfWorker())
 }
-if ('requestIdleCallback' in window) {
-  window.requestIdleCallback(warmPdf, { timeout: 2500 })
+const idle = window.requestIdleCallback?.bind(window)
+if (idle) {
+  idle(warmPdf, { timeout: 2500 })
 } else {
   window.setTimeout(warmPdf, 1200)
 }

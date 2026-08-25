@@ -14,16 +14,18 @@ export type PdfSource = string | ArrayBuffer | Uint8Array
 export async function loadPdfDocument(src: PdfSource): Promise<PDFDocumentProxy> {
   ensurePdfWorker()
 
-  const task = getDocument({
-    ...(typeof src === 'string' ? { url: src } : { data: src }),
-    withCredentials: false,
-    useSystemFonts: true,
-    // Streaming / rangos: empieza a parsear sin esperar el archivo completo
-    disableStream: false,
-    disableAutoFetch: false,
-    // Menos trabajo en el hilo principal al inicio
-    isEvalSupported: false,
-  })
+  const task =
+    typeof src === 'string'
+      ? getDocument({
+          url: src,
+          withCredentials: false,
+          useSystemFonts: true,
+        })
+      : getDocument({
+          data: src instanceof Uint8Array ? src : new Uint8Array(src),
+          withCredentials: false,
+          useSystemFonts: true,
+        })
 
   return task.promise
 }
