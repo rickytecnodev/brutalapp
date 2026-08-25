@@ -11,6 +11,11 @@ const error = ref<string | null>(null)
 const unavailableTone = ref<string | null>(null)
 
 let objectUrl: string | null = null
+/** Entrada de historial creada al abrir el visor (para que Atrás lo cierre). */
+let viewerHistoryEntry = false
+/** Ignora el popstate que dispara history.back() al cerrar con el botón. */
+let ignoreNextPopstate = false
+let popstateBound = false
 
 function clearObjectUrl(): void {
   if (objectUrl) {
@@ -49,7 +54,48 @@ async function resolveSource(score: Score): Promise<string> {
   return resolveScoreUrl(score.pdf)
 }
 
+function resetViewerState(): void {
+  open.value = false
+  clearObjectUrl()
+  src.value = null
+  error.value = null
+  unavailableTone.value = null
+  loading.value = false
+  selected.value = null
+}
+
+function pushViewerHistory(): void {
+  if (viewerHistoryEntry) return
+  history.pushState({ brutalScoreViewer: true }, '')
+  viewerHistoryEntry = true
+}
+
+function popViewerHistory(): void {
+  if (!viewerHistoryEntry) return
+  viewerHistoryEntry = false
+  ignoreNextPopstate = true
+  history.back()
+}
+
+function onPopState(): void {
+  if (ignoreNextPopstate) {
+    ignoreNextPopstate = false
+    return
+  }
+  if (!open.value) return
+  viewerHistoryEntry = false
+  resetViewerState()
+}
+
+function ensurePopstateListener(): void {
+  if (popstateBound) return
+  window.addEventListener('popstate', onPopState)
+  popstateBound = true
+}
+
 export function useScoreViewer() {
+  ensurePopstateListener()
+
   async function openScore(score: Score): Promise<void> {
     selected.value = score
     open.value = true
@@ -58,6 +104,7 @@ export function useScoreViewer() {
     unavailableTone.value = null
     clearObjectUrl()
     src.value = null
+    pushViewerHistory()
 
     try {
       src.value = await resolveSource(score)
@@ -78,12 +125,9 @@ export function useScoreViewer() {
   }
 
   function close(): void {
-    open.value = false
-    clearObjectUrl()
-    src.value = null
-    error.value = null
-    unavailableTone.value = null
-    loading.value = false
+    if (!open.value) return
+    resetViewerState()
+    popViewerHistory()
   }
 
   return {
