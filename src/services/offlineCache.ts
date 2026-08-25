@@ -1,6 +1,8 @@
 /** Cache Storage dedicado a partituras guardadas por el usuario (no precache). */
 export const SCORES_CACHE_NAME = 'scores-offline-v1'
 
+export type ProgressCallback = (ratio: number) => void
+
 /**
  * Resuelve la URL pública del PDF respetando el `base` de Vite
  * (necesario en GitHub Pages: /brutalapp/ y no la raíz del dominio).
@@ -11,7 +13,6 @@ export function resolveScoreUrl(pdfPath: string): string {
   const pageBase = window.location.href.replace(/#.*$/, '')
   return new URL(clean, new URL(base, pageBase)).href
 }
-
 
 export async function isCacheApiAvailable(): Promise<boolean> {
   return typeof window !== 'undefined' && 'caches' in window
@@ -31,7 +32,10 @@ export async function isScoreCached(pdfPath: string): Promise<boolean> {
   return Boolean(match)
 }
 
-export async function saveScoreOffline(pdfPath: string): Promise<void> {
+export async function saveScoreOffline(
+  pdfPath: string,
+  onProgress?: ProgressCallback,
+): Promise<void> {
   if (!(await isCacheApiAvailable())) {
     throw new Error('Cache Storage no está disponible en este navegador.')
   }
@@ -44,7 +48,43 @@ export async function saveScoreOffline(pdfPath: string): Promise<void> {
   }
 
   const cache = await caches.open(SCORES_CACHE_NAME)
-  await cache.put(url, response.clone())
+  const body = response.body
+
+  if (!body || !onProgress) {
+    await cache.put(url, response.clone())
+    onProgress?.(1)
+    return
+  }
+
+  const total = Number(response.headers.get('Content-Length') || 0)
+  const reader = body.getReader()
+  const chunks: Uint8Array[] = []
+  let received = 0
+
+  onProgress(0)
+
+  while (true) {
+    const { done, value } = await reader.read()
+    if (done) break
+    if (value) {
+      chunks.push(value)
+      received += value.byteLength
+      if (total > 0) {
+        onProgress(Math.min(0.99, received / total))
+      } else {
+        // Sin Content-Length: avance suave estimado
+        onProgress(Math.min(0.92, 1 - 1 / (1 + received / 350_000)))
+      }
+    }
+  }
+
+  const blob = new Blob(chunks as BlobPart[], {
+    type: response.headers.get('Content-Type') || 'application/pdf',
+  })
+  const headers = new Headers(response.headers)
+  headers.set('Content-Length', String(blob.size))
+  await cache.put(url, new Response(blob, { status: 200, headers }))
+  onProgress(1)
 }
 
 export async function removeScoreOffline(pdfPath: string): Promise<void> {
