@@ -5,15 +5,17 @@
     "composer": " ",
     "pdf": "/scores/1-de-noviembre.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=cM-gPB1DilQ"
   },
   {
-    "id": "5-de-te-chuy-lizarraga",
-    "title": "5 De Te",
+    "id": "5-de-te",
+    "title": "5 de te",
     "composer": "Chuy Lizarraga",
-    "pdf": "/scores/5-de-te-chuy-lizarraga.pdf",
+    "pdf": "/scores/5-de-te.pdf",
     "sourceFile": "5 De Te - Chuy Lizarraga.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=lpfhMMJDR0I"
   },
   {
     "id": "5-de-te-banda-el-recodo-trans-marco-antonio",
@@ -38,15 +40,17 @@
     "composer": " ",
     "pdf": "/scores/adolorido-del-corazon.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=vL4D-q57nn0"
   },
   {
     "id": "amores-de-montana",
     "title": "Amores de montaña",
     "composer": "La Reyna De Oaxaca",
-    "pdf": "/scores/amores-de-montana-banda-la-reyna-de-oaxaca.pdf",
+    "pdf": "/scores/amores-de-montana.pdf",
     "sourceFile": "amores de montaña -banda la reyna de oaxaca.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=LJDPQ7_bX7A"
   },
   {
     "id": "arriba-pichataro-banda-mm",
@@ -62,7 +66,8 @@
     "composer": " ",
     "pdf": "/scores/asereje.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=IoqFh4qyiOM"
   },
   {
     "id": "bailando-y-gozando-pancho-barraza-instrumental",
@@ -70,7 +75,8 @@
     "composer": "Pancho Barraza",
     "pdf": "/scores/bailando-y-gozando-pancho-barraza-instrumental.pdf",
     "sourceFile": "Bailando Y Gozando - Pancho Barraza - Instrumental.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=IwC_GENfEyw"
   },
   {
     "id": "banda-tromba-sinaloense-danza-del-venado",
@@ -86,15 +92,17 @@
     "composer": " ",
     "pdf": "/scores/burro-loco.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=DG0a2-dkSsM"
   },
   {
-    "id": "candela-verde-banda-bucanera",
-    "title": "Candela Verde",
+    "id": "candela-verde",
+    "title": "Candela verde",
     "composer": "Bucanera",
-    "pdf": "/scores/candela-verde-banda-bucanera.pdf",
+    "pdf": "/scores/candela-verde.pdf",
     "sourceFile": "Candela Verde - Banda Bucanera.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=SwjVEVvGhj8"
   },
   {
     "id": "carnaval-putleco",
@@ -102,7 +110,8 @@
     "composer": "Tierra Mojada",
     "pdf": "/scores/carnaval-putleco.pdf",
     "sourceFile": "Carnaval putleco.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=mfh09wwEAlY"
   },
   {
     "id": "carnavalesco",
@@ -110,7 +119,8 @@
     "composer": " ",
     "pdf": "/scores/carnavalesco.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=Xm5GtwpQHvo"
   },
   {
     "id": "chinelo-carnavalero",
@@ -118,7 +128,8 @@
     "composer": " ",
     "pdf": "/scores/chinelo-carnavalero.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=1vyObwIs8Pc"
   },
   {
     "id": "como-quien-pierde-una-estrella",
@@ -134,21 +145,23 @@
     "composer": " ",
     "pdf": "/scores/conjunto-mar-azul.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=Tvr3RtYG93Q"
   },
   {
     "id": "corazon-de-texas",
-    "title": "Corazon de texas",
+    "title": "Corazón de texas",
     "composer": " ",
     "pdf": "/scores/corazon-de-texas.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=ewDo-YcU30E"
   },
   {
-    "id": "corazon-partio-banda-puro-santa-rosa-ft-banda-aires-del-pacifico",
-    "title": "CORAZON PARTIO BANDA PURO SANTA ROSA FT BANDA AIRES DEL PACIFICO",
+    "id": "corazon-partio",
+    "title": "Corazón partío",
     "composer": "Puro Santa Rosa Ff Aires Del Pacifico",
-    "pdf": "/scores/corazon-partio-banda-puro-santa-rosa-ft-banda-aires-del-pacifico.pdf",
+    "pdf": "/scores/corazon-partio.pdf",
     "sourceFile": "CORAZON PARTIO BANDA PURO SANTA ROSA FT BANDA AIRES DEL PACIFICO.pdf",
     "tono": "Do Mayor",
     "listenUrl": "https://www.youtube.com/watch?v=FY8v3YMytLg"
@@ -167,15 +180,17 @@
     "composer": " ",
     "pdf": "/scores/dios-nunca-muere.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=KWnah74uu7k"
   },
   {
     "id": "ejercito-ranchero",
-    "title": "Ejército Ranchero",
-    "composer": " ",
+    "title": "Ejército ranchero",
+    "composer": "Reyna De Oaxaca",
     "pdf": "/scores/ejercito-ranchero.pdf",
     "sourceFile": "Ejército Ranchero.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=XF8et6q5EZs"
   },
   {
     "id": "el-ahualulco",
@@ -187,11 +202,12 @@
   },
   {
     "id": "el-alacran",
-    "title": "El alacran",
+    "title": "El alacrán",
     "composer": " ",
     "pdf": "/scores/el-alacran.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=dkpx1zSEQ7U"
   },
   {
     "id": "el-aparatito",
@@ -202,21 +218,22 @@
     "tono": "Do Mayor"
   },
   {
-    "id": "el-buey-de-la-barranca-partes",
-    "title": "El Buey de la Barranca",
+    "id": "el-buey-de-la-barranca",
+    "title": "El buey de la barranca",
     "composer": "Misteriosa",
-    "pdf": "/scores/el-buey-de-la-barranca-partes.pdf",
+    "pdf": "/scores/el-buey-de-la-barranca.pdf",
     "sourceFile": "El Buey de la Barranca - Partes.pdf",
     "tono": "Do Mayor",
     "listenUrl": "https://www.youtube.com/watch?v=bq5Tvu9ThnI"
   },
   {
-    "id": "el-cable-banda-madre-sinaloense",
-    "title": "El Cable",
+    "id": "el-cable",
+    "title": "El cable",
     "composer": "El Recodo",
-    "pdf": "/scores/el-cable-banda-madre-sinaloense.pdf",
+    "pdf": "/scores/el-cable.pdf",
     "sourceFile": "El Cable - Banda Madre Sinaloense.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=zFjQpuEk6tI"
   },
   {
     "id": "el-colibri",
@@ -224,7 +241,8 @@
     "composer": "San Juan del Rey",
     "pdf": "/scores/el-colibri.pdf",
     "sourceFile": "El colibrí .pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=82sod6LAIzU"
   },
   {
     "id": "el-coyotito",
@@ -232,15 +250,17 @@
     "composer": " ",
     "pdf": "/scores/el-coyotito.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=l5t8wMTbjFY"
   },
   {
-    "id": "el-cumbianchero",
-    "title": "El cumbianchero",
+    "id": "el-cumbanchero",
+    "title": "El cumbanchero",
     "composer": " ",
-    "pdf": "/scores/el-cumbianchero.pdf",
+    "pdf": "/scores/el-cumbanchero.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=2Rsc5w2-DCU"
   },
   {
     "id": "el-farol-recodo",
@@ -248,15 +268,17 @@
     "composer": "Recodo",
     "pdf": "/scores/el-farol-recodo.pdf",
     "sourceFile": "El farol - Recodo.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=htXDyiRAqqM"
   },
   {
-    "id": "el-gallo-viejo-banda-bucanera",
-    "title": "El Gallo Viejo",
+    "id": "el-gallo-viejo",
+    "title": "El gallo viejo",
     "composer": "Bucanera",
-    "pdf": "/scores/el-gallo-viejo-banda-bucanera.pdf",
+    "pdf": "/scores/el-gallo-viejo.pdf",
     "sourceFile": "El Gallo Viejo - Banda Bucanera.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=UUoxvE6QLHE"
   },
   {
     "id": "el-guateque",
@@ -272,7 +294,8 @@
     "composer": " ",
     "pdf": "/scores/el-inigualable.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=7a3C9FAYP7k"
   },
   {
     "id": "el-italiano",
@@ -280,15 +303,17 @@
     "composer": " ",
     "pdf": "/scores/el-italiano.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=A0uvAj6vAfM"
   },
   {
-    "id": "el-kraken-banda-aires-del-pacifico",
+    "id": "el-kraken",
     "title": "El Kraken",
     "composer": "Aires Del Pacifico",
-    "pdf": "/scores/el-kraken-banda-aires-del-pacifico.pdf",
+    "pdf": "/scores/el-kraken.pdf",
     "sourceFile": "El Kraken - Banda Aires Del Pacifico.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=MV9soOJ1KrE"
   },
   {
     "id": "el-manicero",
@@ -304,21 +329,23 @@
     "composer": " ",
     "pdf": "/scores/el-nino-perdido.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=YbOEKL7R8TA"
   },
   {
-    "id": "el-payaso-de-rodeo-banda-la-trakatera",
-    "title": "El Payaso De Rodeo",
+    "id": "payaso-de-rodeo",
+    "title": "Payaso de rodeo",
     "composer": "La Trakatera",
-    "pdf": "/scores/el-payaso-de-rodeo-banda-la-trakatera.pdf",
+    "pdf": "/scores/payaso-de-rodeo.pdf",
     "sourceFile": "El Payaso De Rodeo - Banda La Trakatera.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=IHbg_5-d6Ts"
   },
   {
-    "id": "el-payaso-banda-la-trakatera",
-    "title": "El Payaso",
+    "id": "el-payaso",
+    "title": "El payaso",
     "composer": "La Trakatera",
-    "pdf": "/scores/el-payaso-la trakatera.pdf",
+    "pdf": "/scores/el-payaso.pdf",
     "sourceFile": "El Payaso - Banda La Trakatera.pdf",
     "tono": "Do Mayor",
     "listenUrl": "https://www.youtube.com/watch?v=H6LmO0fYlkg"
@@ -329,15 +356,17 @@
     "composer": " ",
     "pdf": "/scores/el-pirata.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=hjFAt1qeIaM"
   },
   {
-    "id": "el-rey-el-coyote",
+    "id": "el-rey",
     "title": "El Rey",
     "composer": "El Coyote",
-    "pdf": "/scores/el-rey-el-coyote.pdf",
+    "pdf": "/scores/el-rey.pdf",
     "sourceFile": "El Rey - El Coyote.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=qOvA-wKhHPw"
   },
   {
     "id": "el-sol-no-regresa",
@@ -345,23 +374,26 @@
     "composer": "Puro Santa Roso ft Trakatera",
     "pdf": "/scores/el-sol-no-regresa.pdf",
     "sourceFile": "EL SOL NO REGRESA.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=JRY_6adUzzQ"
   },
   {
-    "id": "el-son-del-chupon",
-    "title": "El Son del Chupón",
+    "id": "el-chupon",
+    "title": "El chupón",
     "composer": "Gran gitana",
-    "pdf": "/scores/el-son-del-chupon.pdf",
+    "pdf": "/scores/el-chupon.pdf",
     "sourceFile": "El Son del Chupón.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=B2Cr9JFGQKE"
   },
   {
-    "id": "el-son-del-huesero-banda-la-huesera",
-    "title": "El Son Del Huesero",
+    "id": "son-del-huesero",
+    "title": "Son del huesero",
     "composer": "La Huesera",
-    "pdf": "/scores/el-son-del-huesero-banda-la-huesera.pdf",
+    "pdf": "/scores/son-del-huesero.pdf",
     "sourceFile": "El Son Del Huesero - Banda La Huesera.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=GitJrIuDpLo"
   },
   {
     "id": "el-tlacololero",
@@ -369,7 +401,8 @@
     "composer": " ",
     "pdf": "/scores/el-tlacololero.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=XcrqOTxIBSQ"
   },
   {
     "id": "el-toro-mambo-banda-el-recodo",
@@ -377,7 +410,8 @@
     "composer": "El Recodo",
     "pdf": "/scores/el-toro-mambo-banda-el-recodo.pdf",
     "sourceFile": "El Toro Mambo - Banda El Recodo.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=NhSqO4qCxBw"
   },
   {
     "id": "el-tumba-tumba",
@@ -393,15 +427,17 @@
     "composer": " ",
     "pdf": "/scores/el-vagabundo.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=unXIZcTGOTg"
   },
   {
-    "id": "el-venado-banda-trakatera-instrumental",
-    "title": "El Venado",
+    "id": "el-venado",
+    "title": "El venado",
     "composer": "Trakatera",
-    "pdf": "/scores/el-venado-banda-trakatera-instrumental.pdf",
+    "pdf": "/scores/el-venado.pdf",
     "sourceFile": "El Venado - Banda Trakatera - Instrumental.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=dt2uIuiUwu0"
   },
   {
     "id": "el-venao-banda-trakatera",
@@ -409,31 +445,35 @@
     "composer": "Trakatera",
     "pdf": "/scores/el-venao-banda-trakatera.pdf",
     "sourceFile": "El Venao - Banda Trakatera.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=c6vpFntwJ7M"
   },
   {
-    "id": "el-vuelo-del-abejorro-banda-tierra-mojada-marco-flores",
-    "title": "El Vuelo Del Abejorro",
+    "id": "el-vuelo-del-abejorro",
+    "title": "El vuelo del abejorro",
     "composer": "Perla De Michoacan",
     "pdf": "/scores/el-vuelo-del-abejorro.pdf",
     "sourceFile": "El Vuelo Del Abejorro - Banda Tierra Mojada - Marco Flores.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=-ClpixWjt5M"
   },
   {
-    "id": "esos-bajos-marcha",
-    "title": "Esos Bajos",
+    "id": "esos-bajos",
+    "title": "Esos bajos",
     "composer": "Marcha",
-    "pdf": "/scores/esos-bajos-marcha.pdf",
+    "pdf": "/scores/esos-bajos.pdf",
     "sourceFile": "Esos Bajos - Marcha.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=JI22qIYwl6Y"
   },
   {
-    "id": "fue-en-un-cafe-banda-puro-santa-rosa",
-    "title": "Fue En Un Cafe",
+    "id": "fue-en-un-cafe",
+    "title": "Fue en un café",
     "composer": "Puro Santa Rosa",
-    "pdf": "/scores/fue-en-un-cafe-banda-puro-santa-rosa.pdf",
+    "pdf": "/scores/fue-en-un-cafe.pdf",
     "sourceFile": "Fue En Un Cafe - Banda Puro Santa Rosa.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=TvY9FkeRXaw"
   },
   {
     "id": "granada-banda-tierra-mojada",
@@ -441,7 +481,8 @@
     "composer": "Tierra Mojada",
     "pdf": "/scores/granada-banda-tierra-mojada.pdf",
     "sourceFile": "Granada - Banda Tierra Mojada.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=AeRtN8RQfaU"
   },
   {
     "id": "guitarras-de-paracho",
@@ -449,15 +490,17 @@
     "composer": " ",
     "pdf": "/scores/guitarras-de-paracho.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=T4KngBePXJs"
   },
   {
-    "id": "ilusion-98-banda-perla-de-michoacan",
-    "title": "Ilusion 98",
+    "id": "ilusion-98",
+    "title": "Ilusión 98",
     "composer": "Perla De Michoacan",
-    "pdf": "/scores/ilusion-98-banda-perla-de-michoacan.pdf",
+    "pdf": "/scores/ilusion-98.pdf",
     "sourceFile": "Ilusion 98 - Banda Perla De Michoacan.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=0yVwD8aG5a8"
   },
   {
     "id": "intro-la-picosa-hernandez-banda-parts",
@@ -484,12 +527,13 @@
     "tono": "Do Mayor"
   },
   {
-    "id": "jinetes",
-    "title": "Jinetes",
+    "id": "jinetes-en-el-cielo",
+    "title": "Jinetes en el cielo",
     "composer": "Tierra Mojada",
-    "pdf": "/scores/jinetes-en-el-cielo-banda-tierra-mojada-version-2.pdf",
+    "pdf": "/scores/jinetes-en-el-cielo.pdf",
     "sourceFile": "Jinetes En El Cielo - Banda Tierra Mojada Version 2.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=X7c1SEQuvOg"
   },
   {
     "id": "juan-colorado",
@@ -501,11 +545,12 @@
   },
   {
     "id": "la-brujita",
-    "title": "La Brujita",
+    "title": "La brujita",
     "composer": " ",
     "pdf": "/scores/la-brujita.pdf",
     "sourceFile": "La Brujita.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=zu9t-xkAyyY"
   },
   {
     "id": "la-calandria-y-los-correcaminos",
@@ -513,23 +558,26 @@
     "composer": " ",
     "pdf": "/scores/la-calandria-y-los-correcaminos.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=ETgobJM752U"
   },
   {
-    "id": "la-calavera-banda-imperial-version-2",
+    "id": "la-calavera",
     "title": "La Calavera",
     "composer": "Imperial",
-    "pdf": "/scores/la-calavera-banda-imperial-version-2.pdf",
+    "pdf": "/scores/la-calavera.pdf",
     "sourceFile": "La Calavera - Banda Imperial Version 2.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=_Uf4QZ3gbik"
   },
   {
     "id": "la-danza-de-la-chiva",
     "title": "La danza de la chiva",
     "composer": "Joya De Antequera",
-    "pdf": "/scores/la-danza-de-la-chiva-banda-joya-de-antequera-alfredo.pdf",
+    "pdf": "/scores/la-danza-de-la-chiva.pdf",
     "sourceFile": "LA DANZA DE LA CHIVA-BANDA JOYA DE ANTEQUERA-ALFREDO.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=fmGOwZtSN0Q"
   },
   {
     "id": "la-danza-del-coyote-banda-triguera",
@@ -537,7 +585,8 @@
     "composer": "Triguera",
     "pdf": "/scores/la-danza-del-coyote-banda-triguera.pdf",
     "sourceFile": "La Danza Del Coyote - Banda Triguera.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=BvOx-WQmAaU"
   },
   {
     "id": "la-danza-del-coyote-banda-triguera-083414",
@@ -545,15 +594,17 @@
     "composer": "Triguera_083414",
     "pdf": "/scores/la-danza-del-coyote-banda-triguera-083414.pdf",
     "sourceFile": "La Danza Del Coyote - Banda Triguera_083414.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=BvOx-WQmAaU"
   },
   {
-    "id": "la-japonesita-banda-perla-morada",
+    "id": "la-japonesita",
     "title": "La japonesita",
     "composer": "Perla Morada",
-    "pdf": "/scores/la-japonesita-banda-perla-morada.pdf",
+    "pdf": "/scores/la-japonesita.pdf",
     "sourceFile": "La japonesita - Banda Perla Morada.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=lPwG8mA3jV0"
   },
   {
     "id": "la-japonesita-banda-vientos-del-sur-ft-banda-perla-morada-by-sidro-reyes-r",
@@ -572,12 +623,13 @@
     "tono": "Do Mayor"
   },
   {
-    "id": "la-negra-tete-banda-la-prestigiada-ft-la-tromba-sinaloense",
-    "title": "La Negra Tete Banda La Prestigiada ft La Tromba Sinaloense",
+    "id": "la-negra-tete",
+    "title": "La negra tete",
     "composer": " ",
-    "pdf": "/scores/la-negra-tete-banda-la-prestigiada-ft-la-tromba-sinaloense.pdf",
+    "pdf": "/scores/la-negra-tete.pdf",
     "sourceFile": "La Negra Tete Banda La Prestigiada ft La Tromba Sinaloense.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=_XWui7bDKVA"
   },
   {
     "id": "la-pedota",
@@ -585,7 +637,8 @@
     "composer": " ",
     "pdf": "/scores/la-pedota.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=T_fyWgEOtvM"
   },
   {
     "id": "la-peinada",
@@ -609,56 +662,62 @@
     "composer": " ",
     "pdf": "/scores/la-secretaria.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=JxCGIq3hSvc"
   },
   {
-    "id": "la-tuba-hedionda-banda-tierra-mojada",
-    "title": "La Tuba Hedionda",
+    "id": "tuba-gedionda",
+    "title": "Tuba gedionda",
     "composer": "Tierra Mojada",
-    "pdf": "/scores/la-tuba-hedionda-banda-tierra-mojada.pdf",
+    "pdf": "/scores/tuba-gedionda.pdf",
     "sourceFile": "La Tuba Hedionda - Banda Tierra Mojada.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=GwfsTFdy5EY"
   },
   {
     "id": "la-ultima-pachanga",
-    "title": "La ultima pachanga",
+    "title": "La última pachanga",
     "composer": " ",
     "pdf": "/scores/la-ultima-pachanga.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=2TdFpKf0PHM"
   },
   {
-    "id": "la-virgen-de-la-macarena",
-    "title": "LA VIRGEN DE LA MACARENA",
+    "id": "virgen-de-la-macarena",
+    "title": "Virgen de la macarena",
     "composer": " ",
-    "pdf": "/scores/la-virgen-de-la-macarena.pdf",
+    "pdf": "/scores/virgen-de-la-macarena.pdf",
     "sourceFile": "LA VIRGEN DE LA MACARENA.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=Y-3Ti3vx6iU"
   },
   {
-    "id": "la-virgen-del-tepeyac-odisea",
-    "title": "La virgen del tepeyac __ odisea",
+    "id": "virgen-del-tepeyac",
+    "title": "Virgen del tepeyac",
     "composer": "Prestigiada",
-    "pdf": "/scores/la-virgen-del-tepeyac-odisea.pdf",
+    "pdf": "/scores/virgen-del-tepeyac.pdf",
     "sourceFile": "La virgen del tepeyac __ odisea.pdf",
     "tono": "Do Mayor",
     "listenUrl": "https://youtu.be/WXbZgUBV1zU?si=WkjQuydpP8K4L7Af"
   },
   {
-    "id": "las-esferas-del-dragon-banda-reyna-de-huajuapan",
-    "title": "Las Esferas Del Dragon",
+    "id": "esferas-del-dragon",
+    "title": "Esferas del dragón",
     "composer": "Reyna De Huajuapan",
-    "pdf": "/scores/las-esferas-del-dragon-banda-reyna-de-huajuapan.pdf",
+    "pdf": "/scores/esferas-del-dragon.pdf",
     "sourceFile": "Las Esferas Del Dragon - Banda Reyna De Huajuapan.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=GT450gT0qTk"
   },
   {
-    "id": "las-mujeres-lo-bailan-bien-partes",
-    "title": "Las Mujeres Lo Bailan Bien",
+    "id": "las-mujeres-lo-bailan-bien",
+    "title": "Las mujeres lo bailan bien",
     "composer": "Caña verde",
-    "pdf": "/scores/las-mujeres-lo-bailan-bien-partes.pdf",
+    "pdf": "/scores/las-mujeres-lo-bailan-bien.pdf",
     "sourceFile": "Las Mujeres Lo Bailan Bien-Partes.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=rgTy7awjZwo"
   },
   {
     "id": "llorar-llorar-banda-mm",
@@ -672,44 +731,46 @@
     "id": "los-fuegos",
     "title": "Los fuegos",
     "composer": "Misteriosa",
-    "pdf": "/scores/los-fuegos-banda-misteriosa-by-m-l.pdf",
+    "pdf": "/scores/los-fuegos.pdf",
     "sourceFile": "Los Fuegos - Banda Misteriosa - By M L.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=G3Nb0SDDalE"
   },
   {
-    "id": "los-ixtlahuaca",
+    "id": "los-hixtlahuacas",
     "title": "Los Hixtlahuacas",
     "composer": "Reyna de Oaxaca",
-    "pdf": "/scores/los-ixtlahuaca.pdf",
+    "pdf": "/scores/los-hixtlahuacas.pdf",
     "sourceFile": "Los Ixtlahuaca.pdf",
     "tono": "Do Mayor",
     "listenUrl": "https://www.youtube.com/watch?v=illONwRDAdo"
   },
   {
-    "id": "los-mosquitos-pican-pican-trakatera",
-    "title": "LOS MOSQUITOS (PICAN PICAN) Trakatera",
+    "id": "pican-pican-los-mosquitos",
+    "title": "Pican pican los mosquitos",
     "composer": "Trakatera",
-    "pdf": "/scores/los-mosquitos-pican-pican-trakatera.pdf",
+    "pdf": "/scores/pican-pican-los-mosquitos.pdf",
     "sourceFile": "LOS MOSQUITOS (PICAN PICAN) Trakatera.pdf",
     "tono": "Do Mayor",
     "listenUrl": "https://youtu.be/wYswhCH4ZbE?si=O1jIW9bS7YB3Ig9W"
   },
   {
-    "id": "los-rancheros-banda-reyna-de-oaxaca",
-    "title": "Los Rancheros",
+    "id": "los-rancheros",
+    "title": "Los rancheros",
     "composer": "Reyna De Oaxaca",
-    "pdf": "/scores/los-rancheros-banda-reyna-de-oaxaca.pdf",
+    "pdf": "/scores/los-rancheros.pdf",
     "sourceFile": "Los Rancheros - Banda Reyna De Oaxaca.pdf",
-    "tono": "Do Mayor", 
+    "tono": "Do Mayor",
     "listenUrl": "https://www.youtube.com/watch?v=QKqDXaD5Cbk"
   },
   {
-    "id": "los-reyes-muerteros",
-    "title": "Los Reyes Muerteros",
+    "id": "reyes-muerteros",
+    "title": "Reyes muerteros",
     "composer": "Reyna de Oaxaca",
-    "pdf": "/scores/los-reyes-muerteros.pdf",
+    "pdf": "/scores/reyes-muerteros.pdf",
     "sourceFile": "Los Reyes Muerteros.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=3cqBQrWhd_Q"
   },
   {
     "id": "los-tiliches",
@@ -717,15 +778,17 @@
     "composer": " ",
     "pdf": "/scores/los-tiliches.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=2rJPHVq_e30"
   },
   {
-    "id": "marmotas",
-    "title": "Marmotas",
+    "id": "las-marmotas",
+    "title": "Las Marmotas",
     "composer": "Tierra Mojada",
-    "pdf": "/scores/las-marmotas-banda-tierra-mojada.pdf",
+    "pdf": "/scores/las-marmotas.pdf",
     "sourceFile": "Las Marmotas - Banda Tierra Mojada.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=0aKsaleYj2s"
   },
   {
     "id": "me-gustas-mucho-banda-la-sinaloense",
@@ -741,7 +804,8 @@
     "composer": "Los Nuevos Santa Rosa",
     "pdf": "/scores/mis-flores-negras-banda-los-nuevos-santa-rosa.pdf",
     "sourceFile": "Mis Flores Negras - Banda Los Nuevos Santa Rosa.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=zDFyEV0TaMk"
   },
   {
     "id": "naranja-dulce",
@@ -749,7 +813,8 @@
     "composer": " ",
     "pdf": "/scores/naranja-dulce.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=LHjJWxqYUho"
   },
   {
     "id": "no-recuerdo-la-tarde-partes",
@@ -765,7 +830,8 @@
     "composer": " ",
     "pdf": "/scores/no-se-vivir-si-no-es-contigo.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=_E-JJNE9xQU"
   },
   {
     "id": "olvidarte-nunca",
@@ -773,15 +839,17 @@
     "composer": "Misteriosa",
     "pdf": "/scores/olvidarte-nunca.pdf",
     "sourceFile": "Olvidarte nunca.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=fVwLbsg1ywo"
   },
   {
     "id": "pachanga-muertera",
-    "title": "PACHANGA MUERTERA",
+    "title": "Pachanga muertera",
     "composer": "Puro Santa Rosa Ff Aires Del Pacifico & Trakatera",
     "pdf": "/scores/pachanga-muertera.pdf",
     "sourceFile": "PACHANGA MUERTERA.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=Ak7HydZtosg"
   },
   {
     "id": "pelea-de-gallos",
@@ -789,23 +857,26 @@
     "composer": " ",
     "pdf": "/scores/pelea-de-gallos.pdf",
     "sourceFile": "Pelea de gallos .pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=WZ6sAYvVvDQ"
   },
   {
-    "id": "pequena-de-ojos-brujos-banda-la-costena-by-jaime-m-h",
-    "title": "Pequeña De Ojos Brujos",
+    "id": "pequena-de-ojos-brujos",
+    "title": "Pequeña de ojos brujos",
     "composer": "La Costeña",
-    "pdf": "/scores/pequena-de-ojos-brujos-banda-la-costena-by-jaime-m-h.pdf",
+    "pdf": "/scores/pequena-de-ojos-brujos.pdf",
     "sourceFile": "Pequeña De Ojos Brujos - Banda La Costeña - By Jaime M H.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=YAAKY3TxhnE"
   },
   {
-    "id": "perfecta-banda-pequena-del-valle-ft-banda-la-de-naza",
+    "id": "perfecta",
     "title": "Perfecta",
     "composer": "Pequeña Del Valle Ft Banda La De Naza",
-    "pdf": "/scores/perfecta-banda-pequena-del-valle-ft-banda-la-de-naza.pdf",
+    "pdf": "/scores/perfecta.pdf",
     "sourceFile": "Perfecta - Banda Pequeña Del Valle Ft Banda La De Naza.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=RTDZusWYLCU"
   },
   {
     "id": "pichatarito",
@@ -816,20 +887,22 @@
     "tono": "Do Mayor"
   },
   {
-    "id": "polka-para-tuba-banda-reyna-de-huajuapan",
-    "title": "Polka Para Tuba",
+    "id": "polka-tuba",
+    "title": "Polka tuba",
     "composer": "Reyna De Huajuapan",
-    "pdf": "/scores/polka-para-tuba-banda-reyna-de-huajuapan.pdf",
+    "pdf": "/scores/polka-tuba.pdf",
     "sourceFile": "Polka Para Tuba - Banda Reyna De Huajuapan.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=QPSt-jQ8RnA"
   },
   {
     "id": "por-que-te-vas",
-    "title": "Por que te vas",
+    "title": "Por qué te vas",
     "composer": " ",
     "pdf": "/scores/por-que-te-vas.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=W3arFOeMLk0"
   },
   {
     "id": "que-siga-la-danza",
@@ -837,7 +910,8 @@
     "composer": " ",
     "pdf": "/scores/que-siga-la-danza.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=z740tK3qavw"
   },
   {
     "id": "quitate-la-falda",
@@ -845,7 +919,8 @@
     "composer": " ",
     "pdf": "/scores/quitate-la-falda.pdf",
     "sourceFile": "Quítate la falda .pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=cYd83srqVyQ"
   },
   {
     "id": "rango",
@@ -853,7 +928,8 @@
     "composer": "Misteriosa",
     "pdf": "/scores/rango.pdf",
     "sourceFile": "Rango.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=Z5r6JIuC_sA"
   },
   {
     "id": "san-miguel",
@@ -869,7 +945,8 @@
     "composer": " ",
     "pdf": "/scores/selva-tropical.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=YdlHC044LPA"
   },
   {
     "id": "septiembre-18",
@@ -877,7 +954,8 @@
     "composer": "Puro Santa Rosa",
     "pdf": "/scores/septiembre-18.pdf",
     "sourceFile": "Septiembre 18.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=ohFZILiIAaY"
   },
   {
     "id": "solo-son-calenda-trompetas",
@@ -888,12 +966,13 @@
     "tono": "Do Mayor"
   },
   {
-    "id": "somos-abajenos-banda-bucanera",
-    "title": "Somos Abajeños",
+    "id": "somos-abajenos",
+    "title": "Somos abajeños",
     "composer": "Bucanera",
-    "pdf": "/scores/somos-abajenos-banda-bucanera.pdf",
+    "pdf": "/scores/somos-abajenos.pdf",
     "sourceFile": "Somos Abajeños (Banda Bucanera).pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=If1UDbkSbME"
   },
   {
     "id": "son-calenda-son-chilena-1",
@@ -904,28 +983,31 @@
     "tono": "Do Mayor"
   },
   {
-    "id": "son-del-zanate-la-unica-de-guerrero-sc",
-    "title": "Son del Zanate · La Unica de Guerrero SC",
+    "id": "el-son-del-zanate",
+    "title": "El son del zanate",
     "composer": "La Unica de Guerrero SC",
-    "pdf": "/scores/son-del-zanate-la-unica-de-guerrero-sc.pdf",
+    "pdf": "/scores/el-son-del-zanate.pdf",
     "sourceFile": "Son del Zanate · La Unica de Guerrero SC.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=CC78ZwdDsH0"
   },
   {
-    "id": "son-revolucionario-banda-tromba-sinaoense",
-    "title": "Son Revolucionario",
+    "id": "son-revolucionario",
+    "title": "Son revolucionario",
     "composer": "Tromba Sinaloense",
-    "pdf": "/scores/son-revolucionario-banda-tromba-sinaoense.pdf",
+    "pdf": "/scores/son-revolucionario.pdf",
     "sourceFile": "Son Revolucionario - Banda Tromba Sinaoense.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=YOWL1BEKQOs"
   },
   {
-    "id": "tecateando-banda-el-recodo",
+    "id": "tecateando",
     "title": "Tecateando",
     "composer": "El Recodo",
-    "pdf": "/scores/tecateando-banda-el-recodo.pdf",
+    "pdf": "/scores/tecateando.pdf",
     "sourceFile": "Tecateando - Banda El Recodo.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=sboUxvfMK60"
   },
   {
     "id": "tecateando-banda-mm",
@@ -941,15 +1023,17 @@
     "composer": " ",
     "pdf": "/scores/testarudos.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=VPprd3vqFsY"
   },
   {
-    "id": "the-trooper-banda-11-pueblos",
-    "title": "the trooper",
+    "id": "the-throoper",
+    "title": "The throoper",
     "composer": "11 pueblos",
-    "pdf": "/scores/the-trooper-banda-11-pueblos.pdf",
+    "pdf": "/scores/the-throoper.pdf",
     "sourceFile": "the trooper - banda 11 pueblos.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=PKHeONvUAxg"
   },
   {
     "id": "trakarosa",
@@ -966,7 +1050,8 @@
     "composer": " ",
     "pdf": "/scores/trinkera.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=JJAubD5GQNA"
   },
   {
     "id": "vampiro-banda-fresa",
@@ -977,12 +1062,13 @@
     "tono": "Do Mayor"
   },
   {
-    "id": "xooj-teem-banda-puro-santa-rosa",
-    "title": "XOOJ-TEEM-BANDA-PURO-SANTA-ROSA",
+    "id": "xooj-team",
+    "title": "Xooj team",
     "composer": "Puro Santa Rosa",
-    "pdf": "/scores/xooj-teem-banda-puro-santa-rosa.pdf",
+    "pdf": "/scores/xooj-team.pdf",
     "sourceFile": "XOOJ-TEEM-BANDA-PURO-SANTA-ROSA.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=_4zO15mzhmc"
   },
   {
     "id": "yo-te-amo",
@@ -990,14 +1076,16 @@
     "composer": " ",
     "pdf": "/scores/yo-te-amo.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=puYXRikcZ0g"
   },
   {
-    "id": "zombie-monstruoso-partes",
-    "title": "Zombie Monstruoso",
+    "id": "el-zombie",
+    "title": "El zombie",
     "composer": "Prestigiada FT Aires del Pacifico",
-    "pdf": "/scores/zombie-monstruoso-partes.pdf",
+    "pdf": "/scores/el-zombie.pdf",
     "sourceFile": "Zombie Monstruoso - Partes.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=SbkoBF0hIL0"
   }
 ]
