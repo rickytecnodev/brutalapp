@@ -2,7 +2,7 @@
   {
     "id": "1-de-noviembre",
     "title": "1 de noviembre",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/1-de-noviembre.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -18,7 +18,7 @@
   {
     "id": "5-de-te-banda-el-recodo-trans-marco-antonio",
     "title": "5 de te banda el Recodo Trans Marco Antonio",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/5-de-te-banda-el-recodo-trans-marco-antonio.pdf",
     "sourceFile": "5 de te banda el Recodo Trans Marco Antonio.pdf",
     "tono": "Do Mayor"
@@ -26,15 +26,16 @@
   {
     "id": "a-donde-vayas-ire",
     "title": "A donde vayas ire",
-    "composer": "Desconocido",
+    "composer": "Tromba",
     "pdf": "/scores/a-donde-vayas-ire.pdf",
     "sourceFile": "A donde vayas ire.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=C-j4YOWIITM"
   },
   {
     "id": "adolorido-del-corazon",
     "title": "Adolorido del corazón",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/adolorido-del-corazon.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -42,7 +43,7 @@
   {
     "id": "amores-de-montana",
     "title": "Amores de montaña",
-    "composer": "Banda La Reyna De Oaxaca",
+    "composer": "La Reyna De Oaxaca",
     "pdf": "/scores/amores-de-montana-banda-la-reyna-de-oaxaca.pdf",
     "sourceFile": "amores de montaña -banda la reyna de oaxaca.pdf",
     "tono": "Do Mayor"
@@ -50,7 +51,7 @@
   {
     "id": "arriba-pichataro-banda-mm",
     "title": "Arriba Pichataro",
-    "composer": "Banda Mm",
+    "composer": "Mm",
     "pdf": "/scores/arriba-pichataro-banda-mm.pdf",
     "sourceFile": "Arriba Pichataro - Banda Mm.pdf",
     "tono": "Do Mayor"
@@ -58,7 +59,7 @@
   {
     "id": "asereje",
     "title": "Asereje",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/asereje.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -74,7 +75,7 @@
   {
     "id": "banda-tromba-sinaloense-danza-del-venado",
     "title": "Banda Tromba Sinaloense Danza Del Venado",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/banda-tromba-sinaloense-danza-del-venado.pdf",
     "sourceFile": "Banda Tromba Sinaloense Danza Del Venado.pdf",
     "tono": "Do Mayor"
@@ -82,7 +83,7 @@
   {
     "id": "burro-loco",
     "title": "Burro loco",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/burro-loco.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -90,7 +91,7 @@
   {
     "id": "candela-verde-banda-bucanera",
     "title": "Candela Verde",
-    "composer": "Banda Bucanera",
+    "composer": "Bucanera",
     "pdf": "/scores/candela-verde-banda-bucanera.pdf",
     "sourceFile": "Candela Verde - Banda Bucanera.pdf",
     "tono": "Do Mayor"
@@ -98,7 +99,7 @@
   {
     "id": "carnaval-putleco",
     "title": "Carnaval putleco",
-    "composer": "Desconocido",
+    "composer": "Tierra Mojada",
     "pdf": "/scores/carnaval-putleco.pdf",
     "sourceFile": "Carnaval putleco.pdf",
     "tono": "Do Mayor"
@@ -106,7 +107,7 @@
   {
     "id": "carnavalesco",
     "title": "Carnavalesco",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/carnavalesco.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -114,7 +115,7 @@
   {
     "id": "chinelo-carnavalero",
     "title": "Chinelo carnavalero",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/chinelo-carnavalero.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -122,7 +123,7 @@
   {
     "id": "como-quien-pierde-una-estrella",
     "title": "Como Quien Pierde Una Estrella",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/como-quien-pierde-una-estrella.pdf",
     "sourceFile": "Como Quien Pierde Una Estrella.pdf",
     "tono": "Do Mayor"
@@ -130,7 +131,7 @@
   {
     "id": "conjunto-mar-azul",
     "title": "Conjunto mar azul",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/conjunto-mar-azul.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -138,7 +139,7 @@
   {
     "id": "corazon-de-texas",
     "title": "Corazon de texas",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/corazon-de-texas.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -146,15 +147,16 @@
   {
     "id": "corazon-partio-banda-puro-santa-rosa-ft-banda-aires-del-pacifico",
     "title": "CORAZON PARTIO BANDA PURO SANTA ROSA FT BANDA AIRES DEL PACIFICO",
-    "composer": "Desconocido",
+    "composer": "Puro Santa Rosa Ff Aires Del Pacifico",
     "pdf": "/scores/corazon-partio-banda-puro-santa-rosa-ft-banda-aires-del-pacifico.pdf",
     "sourceFile": "CORAZON PARTIO BANDA PURO SANTA ROSA FT BANDA AIRES DEL PACIFICO.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=FY8v3YMytLg"
   },
   {
     "id": "cumbia-torera",
     "title": "Cumbia Torera",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/cumbia-torera.pdf",
     "sourceFile": "Cumbia Torera.pdf",
     "tono": "Do Mayor"
@@ -162,7 +164,7 @@
   {
     "id": "dios-nunca-muere",
     "title": "Dios nunca muere",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/dios-nunca-muere.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -170,7 +172,7 @@
   {
     "id": "ejercito-ranchero",
     "title": "Ejército Ranchero",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/ejercito-ranchero.pdf",
     "sourceFile": "Ejército Ranchero.pdf",
     "tono": "Do Mayor"
@@ -178,7 +180,7 @@
   {
     "id": "el-ahualulco",
     "title": "el ahualulco",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/el-ahualulco.pdf",
     "sourceFile": "el ahualulco.pdf",
     "tono": "Do Mayor"
@@ -186,7 +188,7 @@
   {
     "id": "el-alacran",
     "title": "El alacran",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/el-alacran.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -194,7 +196,7 @@
   {
     "id": "el-aparatito",
     "title": "EL APARATITO",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/el-aparatito.pdf",
     "sourceFile": "EL APARATITO.pdf",
     "tono": "Do Mayor"
@@ -202,15 +204,16 @@
   {
     "id": "el-buey-de-la-barranca-partes",
     "title": "El Buey de la Barranca",
-    "composer": "Desconocido",
+    "composer": "Misteriosa",
     "pdf": "/scores/el-buey-de-la-barranca-partes.pdf",
     "sourceFile": "El Buey de la Barranca - Partes.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=bq5Tvu9ThnI"
   },
   {
     "id": "el-cable-banda-madre-sinaloense",
     "title": "El Cable",
-    "composer": "Banda Madre Sinaloense",
+    "composer": "El Recodo",
     "pdf": "/scores/el-cable-banda-madre-sinaloense.pdf",
     "sourceFile": "El Cable - Banda Madre Sinaloense.pdf",
     "tono": "Do Mayor"
@@ -218,7 +221,7 @@
   {
     "id": "el-colibri",
     "title": "El colibrí",
-    "composer": "Desconocido",
+    "composer": "San Juan del Rey",
     "pdf": "/scores/el-colibri.pdf",
     "sourceFile": "El colibrí .pdf",
     "tono": "Do Mayor"
@@ -226,7 +229,7 @@
   {
     "id": "el-coyotito",
     "title": "El coyotito",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/el-coyotito.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -234,7 +237,7 @@
   {
     "id": "el-cumbianchero",
     "title": "El cumbianchero",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/el-cumbianchero.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -250,7 +253,7 @@
   {
     "id": "el-gallo-viejo-banda-bucanera",
     "title": "El Gallo Viejo",
-    "composer": "Banda Bucanera",
+    "composer": "Bucanera",
     "pdf": "/scores/el-gallo-viejo-banda-bucanera.pdf",
     "sourceFile": "El Gallo Viejo - Banda Bucanera.pdf",
     "tono": "Do Mayor"
@@ -258,7 +261,7 @@
   {
     "id": "el-guateque",
     "title": "El Guateque",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/el-guateque.pdf",
     "sourceFile": "El Guateque.pdf",
     "tono": "Do Mayor"
@@ -266,7 +269,7 @@
   {
     "id": "el-inigualable",
     "title": "El inigualable",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/el-inigualable.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -274,7 +277,7 @@
   {
     "id": "el-italiano",
     "title": "El italiano",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/el-italiano.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -282,7 +285,7 @@
   {
     "id": "el-kraken-banda-aires-del-pacifico",
     "title": "El Kraken",
-    "composer": "Banda Aires Del Pacifico",
+    "composer": "Aires Del Pacifico",
     "pdf": "/scores/el-kraken-banda-aires-del-pacifico.pdf",
     "sourceFile": "El Kraken - Banda Aires Del Pacifico.pdf",
     "tono": "Do Mayor"
@@ -290,7 +293,7 @@
   {
     "id": "el-manicero",
     "title": "EL MANICERO",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/el-manicero.pdf",
     "sourceFile": "EL MANICERO.pdf",
     "tono": "Do Mayor"
@@ -298,7 +301,7 @@
   {
     "id": "el-nino-perdido",
     "title": "El niño perdido",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/el-nino-perdido.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -306,15 +309,24 @@
   {
     "id": "el-payaso-de-rodeo-banda-la-trakatera",
     "title": "El Payaso De Rodeo",
-    "composer": "Banda La Trakatera",
+    "composer": "La Trakatera",
     "pdf": "/scores/el-payaso-de-rodeo-banda-la-trakatera.pdf",
     "sourceFile": "El Payaso De Rodeo - Banda La Trakatera.pdf",
     "tono": "Do Mayor"
   },
   {
+    "id": "el-payaso-banda-la-trakatera",
+    "title": "El Payaso",
+    "composer": "La Trakatera",
+    "pdf": "/scores/el-payaso-la trakatera.pdf",
+    "sourceFile": "El Payaso - Banda La Trakatera.pdf",
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=H6LmO0fYlkg"
+  },
+  {
     "id": "el-pirata",
     "title": "El pirata",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/el-pirata.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -329,8 +341,8 @@
   },
   {
     "id": "el-sol-no-regresa",
-    "title": "EL SOL NO REGRESA",
-    "composer": "Desconocido",
+    "title": "El sol no regresa",
+    "composer": "Puro Santa Roso ft Trakatera",
     "pdf": "/scores/el-sol-no-regresa.pdf",
     "sourceFile": "EL SOL NO REGRESA.pdf",
     "tono": "Do Mayor"
@@ -338,7 +350,7 @@
   {
     "id": "el-son-del-chupon",
     "title": "El Son del Chupón",
-    "composer": "Desconocido",
+    "composer": "Gran gitana",
     "pdf": "/scores/el-son-del-chupon.pdf",
     "sourceFile": "El Son del Chupón.pdf",
     "tono": "Do Mayor"
@@ -346,7 +358,7 @@
   {
     "id": "el-son-del-huesero-banda-la-huesera",
     "title": "El Son Del Huesero",
-    "composer": "Banda La Huesera",
+    "composer": "La Huesera",
     "pdf": "/scores/el-son-del-huesero-banda-la-huesera.pdf",
     "sourceFile": "El Son Del Huesero - Banda La Huesera.pdf",
     "tono": "Do Mayor"
@@ -354,7 +366,7 @@
   {
     "id": "el-tlacololero",
     "title": "El tlacololero",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/el-tlacololero.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -362,7 +374,7 @@
   {
     "id": "el-toro-mambo-banda-el-recodo",
     "title": "El Toro Mambo",
-    "composer": "Banda El Recodo",
+    "composer": "El Recodo",
     "pdf": "/scores/el-toro-mambo-banda-el-recodo.pdf",
     "sourceFile": "El Toro Mambo - Banda El Recodo.pdf",
     "tono": "Do Mayor"
@@ -370,7 +382,7 @@
   {
     "id": "el-tumba-tumba",
     "title": "EL TUMBA TUMBA",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/el-tumba-tumba.pdf",
     "sourceFile": "EL TUMBA TUMBA.pdf",
     "tono": "Do Mayor"
@@ -378,7 +390,7 @@
   {
     "id": "el-vagabundo",
     "title": "El vagabundo",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/el-vagabundo.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -386,7 +398,7 @@
   {
     "id": "el-venado-banda-trakatera-instrumental",
     "title": "El Venado",
-    "composer": "Banda Trakatera",
+    "composer": "Trakatera",
     "pdf": "/scores/el-venado-banda-trakatera-instrumental.pdf",
     "sourceFile": "El Venado - Banda Trakatera - Instrumental.pdf",
     "tono": "Do Mayor"
@@ -394,7 +406,7 @@
   {
     "id": "el-venao-banda-trakatera",
     "title": "El Venao",
-    "composer": "Banda Trakatera",
+    "composer": "Trakatera",
     "pdf": "/scores/el-venao-banda-trakatera.pdf",
     "sourceFile": "El Venao - Banda Trakatera.pdf",
     "tono": "Do Mayor"
@@ -402,8 +414,8 @@
   {
     "id": "el-vuelo-del-abejorro-banda-tierra-mojada-marco-flores",
     "title": "El Vuelo Del Abejorro",
-    "composer": "Banda Tierra Mojada - Marco Flores",
-    "pdf": "/scores/el-vuelo-del-abejorro-banda-tierra-mojada-marco-flores.pdf",
+    "composer": "Perla De Michoacan",
+    "pdf": "/scores/el-vuelo-del-abejorro.pdf",
     "sourceFile": "El Vuelo Del Abejorro - Banda Tierra Mojada - Marco Flores.pdf",
     "tono": "Do Mayor"
   },
@@ -418,7 +430,7 @@
   {
     "id": "fue-en-un-cafe-banda-puro-santa-rosa",
     "title": "Fue En Un Cafe",
-    "composer": "Banda Puro Santa Rosa",
+    "composer": "Puro Santa Rosa",
     "pdf": "/scores/fue-en-un-cafe-banda-puro-santa-rosa.pdf",
     "sourceFile": "Fue En Un Cafe - Banda Puro Santa Rosa.pdf",
     "tono": "Do Mayor"
@@ -426,7 +438,7 @@
   {
     "id": "granada-banda-tierra-mojada",
     "title": "Granada",
-    "composer": "Banda Tierra Mojada",
+    "composer": "Tierra Mojada",
     "pdf": "/scores/granada-banda-tierra-mojada.pdf",
     "sourceFile": "Granada - Banda Tierra Mojada.pdf",
     "tono": "Do Mayor"
@@ -434,7 +446,7 @@
   {
     "id": "guitarras-de-paracho",
     "title": "Guitarras de paracho",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/guitarras-de-paracho.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -442,7 +454,7 @@
   {
     "id": "ilusion-98-banda-perla-de-michoacan",
     "title": "Ilusion 98",
-    "composer": "Banda Perla De Michoacan",
+    "composer": "Perla De Michoacan",
     "pdf": "/scores/ilusion-98-banda-perla-de-michoacan.pdf",
     "sourceFile": "Ilusion 98 - Banda Perla De Michoacan.pdf",
     "tono": "Do Mayor"
@@ -450,7 +462,7 @@
   {
     "id": "intro-la-picosa-hernandez-banda-parts",
     "title": "Intro La Picosa Hernandez Banda -Parts",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/intro-la-picosa-hernandez-banda-parts.pdf",
     "sourceFile": "Intro La Picosa Hernandez Banda -Parts.pdf",
     "tono": "Do Mayor"
@@ -458,7 +470,7 @@
   {
     "id": "intro-oaxaqueno-la-picosa",
     "title": "Intro Oaxaqueño La picosa",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/intro-oaxaqueno-la-picosa.pdf",
     "sourceFile": "Intro Oaxaqueño La picosa.pdf",
     "tono": "Do Mayor"
@@ -474,7 +486,7 @@
   {
     "id": "jinetes",
     "title": "Jinetes",
-    "composer": "Banda Tierra Mojada Version 2",
+    "composer": "Tierra Mojada",
     "pdf": "/scores/jinetes-en-el-cielo-banda-tierra-mojada-version-2.pdf",
     "sourceFile": "Jinetes En El Cielo - Banda Tierra Mojada Version 2.pdf",
     "tono": "Do Mayor"
@@ -482,7 +494,7 @@
   {
     "id": "juan-colorado",
     "title": "JUAN COLORADO",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/juan-colorado.pdf",
     "sourceFile": "JUAN COLORADO.pdf",
     "tono": "Do Mayor"
@@ -490,7 +502,7 @@
   {
     "id": "la-brujita",
     "title": "La Brujita",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/la-brujita.pdf",
     "sourceFile": "La Brujita.pdf",
     "tono": "Do Mayor"
@@ -498,7 +510,7 @@
   {
     "id": "la-calandria-y-los-correcaminos",
     "title": "La calandria y los correcaminos",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/la-calandria-y-los-correcaminos.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -506,7 +518,7 @@
   {
     "id": "la-calavera-banda-imperial-version-2",
     "title": "La Calavera",
-    "composer": "Banda Imperial Version 2",
+    "composer": "Imperial",
     "pdf": "/scores/la-calavera-banda-imperial-version-2.pdf",
     "sourceFile": "La Calavera - Banda Imperial Version 2.pdf",
     "tono": "Do Mayor"
@@ -514,7 +526,7 @@
   {
     "id": "la-danza-de-la-chiva",
     "title": "La danza de la chiva",
-    "composer": "Banda Joya De Antequera - Alfredo",
+    "composer": "Joya De Antequera",
     "pdf": "/scores/la-danza-de-la-chiva-banda-joya-de-antequera-alfredo.pdf",
     "sourceFile": "LA DANZA DE LA CHIVA-BANDA JOYA DE ANTEQUERA-ALFREDO.pdf",
     "tono": "Do Mayor"
@@ -522,7 +534,7 @@
   {
     "id": "la-danza-del-coyote-banda-triguera",
     "title": "La Danza Del Coyote",
-    "composer": "Banda Triguera",
+    "composer": "Triguera",
     "pdf": "/scores/la-danza-del-coyote-banda-triguera.pdf",
     "sourceFile": "La Danza Del Coyote - Banda Triguera.pdf",
     "tono": "Do Mayor"
@@ -530,7 +542,7 @@
   {
     "id": "la-danza-del-coyote-banda-triguera-083414",
     "title": "La Danza Del Coyote",
-    "composer": "Banda Triguera_083414",
+    "composer": "Triguera_083414",
     "pdf": "/scores/la-danza-del-coyote-banda-triguera-083414.pdf",
     "sourceFile": "La Danza Del Coyote - Banda Triguera_083414.pdf",
     "tono": "Do Mayor"
@@ -538,7 +550,7 @@
   {
     "id": "la-japonesita-banda-perla-morada",
     "title": "La japonesita",
-    "composer": "Banda Perla Morada",
+    "composer": "Perla Morada",
     "pdf": "/scores/la-japonesita-banda-perla-morada.pdf",
     "sourceFile": "La japonesita - Banda Perla Morada.pdf",
     "tono": "Do Mayor"
@@ -546,7 +558,7 @@
   {
     "id": "la-japonesita-banda-vientos-del-sur-ft-banda-perla-morada-by-sidro-reyes-r",
     "title": "La Japonesita-Banda Vientos Del Sur Ft. Banda Perla Morada-By Sidro Reyes R",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/la-japonesita-banda-vientos-del-sur-ft-banda-perla-morada-by-sidro-reyes-r.pdf",
     "sourceFile": "La Japonesita-Banda Vientos Del Sur Ft. Banda Perla Morada-By Sidro Reyes R.pdf",
     "tono": "Do Mayor"
@@ -554,7 +566,7 @@
   {
     "id": "la-negra-merecumbe",
     "title": "La negra merecumbe",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/la-negra-merecumbe.pdf",
     "sourceFile": "La negra merecumbe.pdf",
     "tono": "Do Mayor"
@@ -562,7 +574,7 @@
   {
     "id": "la-negra-tete-banda-la-prestigiada-ft-la-tromba-sinaloense",
     "title": "La Negra Tete Banda La Prestigiada ft La Tromba Sinaloense",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/la-negra-tete-banda-la-prestigiada-ft-la-tromba-sinaloense.pdf",
     "sourceFile": "La Negra Tete Banda La Prestigiada ft La Tromba Sinaloense.pdf",
     "tono": "Do Mayor"
@@ -570,7 +582,7 @@
   {
     "id": "la-pedota",
     "title": "La pedota",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/la-pedota.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -578,7 +590,7 @@
   {
     "id": "la-peinada",
     "title": "LA PEINADA",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/la-peinada.pdf",
     "sourceFile": "LA PEINADA.pdf",
     "tono": "Do Mayor"
@@ -586,7 +598,7 @@
   {
     "id": "la-quebradora-banda-el-recodo",
     "title": "La Quebradora Banda el Recodo",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/la-quebradora-banda-el-recodo.pdf",
     "sourceFile": "La Quebradora Banda el Recodo.pdf",
     "tono": "Do Mayor"
@@ -594,7 +606,7 @@
   {
     "id": "la-secretaria",
     "title": "La secretaria",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/la-secretaria.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -602,7 +614,7 @@
   {
     "id": "la-tuba-hedionda-banda-tierra-mojada",
     "title": "La Tuba Hedionda",
-    "composer": "Banda Tierra Mojada",
+    "composer": "Tierra Mojada",
     "pdf": "/scores/la-tuba-hedionda-banda-tierra-mojada.pdf",
     "sourceFile": "La Tuba Hedionda - Banda Tierra Mojada.pdf",
     "tono": "Do Mayor"
@@ -610,7 +622,7 @@
   {
     "id": "la-ultima-pachanga",
     "title": "La ultima pachanga",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/la-ultima-pachanga.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -618,7 +630,7 @@
   {
     "id": "la-virgen-de-la-macarena",
     "title": "LA VIRGEN DE LA MACARENA",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/la-virgen-de-la-macarena.pdf",
     "sourceFile": "LA VIRGEN DE LA MACARENA.pdf",
     "tono": "Do Mayor"
@@ -626,15 +638,16 @@
   {
     "id": "la-virgen-del-tepeyac-odisea",
     "title": "La virgen del tepeyac __ odisea",
-    "composer": "Desconocido",
+    "composer": "Prestigiada",
     "pdf": "/scores/la-virgen-del-tepeyac-odisea.pdf",
     "sourceFile": "La virgen del tepeyac __ odisea.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://youtu.be/WXbZgUBV1zU?si=WkjQuydpP8K4L7Af"
   },
   {
     "id": "las-esferas-del-dragon-banda-reyna-de-huajuapan",
     "title": "Las Esferas Del Dragon",
-    "composer": "Banda Reyna De Huajuapan",
+    "composer": "Reyna De Huajuapan",
     "pdf": "/scores/las-esferas-del-dragon-banda-reyna-de-huajuapan.pdf",
     "sourceFile": "Las Esferas Del Dragon - Banda Reyna De Huajuapan.pdf",
     "tono": "Do Mayor"
@@ -642,7 +655,7 @@
   {
     "id": "las-mujeres-lo-bailan-bien-partes",
     "title": "Las Mujeres Lo Bailan Bien",
-    "composer": "Desconocido",
+    "composer": "Caña verde",
     "pdf": "/scores/las-mujeres-lo-bailan-bien-partes.pdf",
     "sourceFile": "Las Mujeres Lo Bailan Bien-Partes.pdf",
     "tono": "Do Mayor"
@@ -650,7 +663,7 @@
   {
     "id": "llorar-llorar-banda-mm",
     "title": "Llorar Llorar",
-    "composer": "Banda Mm",
+    "composer": "Mm",
     "pdf": "/scores/llorar-llorar-banda-mm.pdf",
     "sourceFile": "Llorar Llorar - Banda Mm.pdf",
     "tono": "Do Mayor"
@@ -658,31 +671,33 @@
   {
     "id": "los-fuegos",
     "title": "Los fuegos",
-    "composer": "Banda Misteriosa - By M L",
+    "composer": "Misteriosa",
     "pdf": "/scores/los-fuegos-banda-misteriosa-by-m-l.pdf",
     "sourceFile": "Los Fuegos - Banda Misteriosa - By M L.pdf",
     "tono": "Do Mayor"
   },
   {
     "id": "los-ixtlahuaca",
-    "title": "Los Ixtlahuaca",
-    "composer": "Desconocido",
+    "title": "Los Hixtlahuacas",
+    "composer": "Reyna de Oaxaca",
     "pdf": "/scores/los-ixtlahuaca.pdf",
     "sourceFile": "Los Ixtlahuaca.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=illONwRDAdo"
   },
   {
     "id": "los-mosquitos-pican-pican-trakatera",
     "title": "LOS MOSQUITOS (PICAN PICAN) Trakatera",
-    "composer": "Desconocido",
+    "composer": "Trakatera",
     "pdf": "/scores/los-mosquitos-pican-pican-trakatera.pdf",
     "sourceFile": "LOS MOSQUITOS (PICAN PICAN) Trakatera.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://youtu.be/wYswhCH4ZbE?si=O1jIW9bS7YB3Ig9W"
   },
   {
     "id": "los-rancheros-banda-reyna-de-oaxaca",
     "title": "Los Rancheros",
-    "composer": "Banda Reyna De Oaxaca",
+    "composer": "Reyna De Oaxaca",
     "pdf": "/scores/los-rancheros-banda-reyna-de-oaxaca.pdf",
     "sourceFile": "Los Rancheros - Banda Reyna De Oaxaca.pdf",
     "tono": "Do Mayor", 
@@ -691,7 +706,7 @@
   {
     "id": "los-reyes-muerteros",
     "title": "Los Reyes Muerteros",
-    "composer": "Desconocido",
+    "composer": "Reyna de Oaxaca",
     "pdf": "/scores/los-reyes-muerteros.pdf",
     "sourceFile": "Los Reyes Muerteros.pdf",
     "tono": "Do Mayor"
@@ -699,7 +714,7 @@
   {
     "id": "los-tiliches",
     "title": "Los tiliches",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/los-tiliches.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -707,7 +722,7 @@
   {
     "id": "marmotas",
     "title": "Marmotas",
-    "composer": "Banda Tierra Mojada",
+    "composer": "Tierra Mojada",
     "pdf": "/scores/las-marmotas-banda-tierra-mojada.pdf",
     "sourceFile": "Las Marmotas - Banda Tierra Mojada.pdf",
     "tono": "Do Mayor"
@@ -715,7 +730,7 @@
   {
     "id": "me-gustas-mucho-banda-la-sinaloense",
     "title": "Me gustas mucho banda la sinaloense",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/me-gustas-mucho-banda-la-sinaloense.pdf",
     "sourceFile": "Me gustas mucho banda la sinaloense.pdf",
     "tono": "Do Mayor"
@@ -723,7 +738,7 @@
   {
     "id": "mis-flores-negras-banda-los-nuevos-santa-rosa",
     "title": "Mis Flores Negras",
-    "composer": "Banda Los Nuevos Santa Rosa",
+    "composer": "Los Nuevos Santa Rosa",
     "pdf": "/scores/mis-flores-negras-banda-los-nuevos-santa-rosa.pdf",
     "sourceFile": "Mis Flores Negras - Banda Los Nuevos Santa Rosa.pdf",
     "tono": "Do Mayor"
@@ -731,7 +746,7 @@
   {
     "id": "naranja-dulce",
     "title": "Naranja dulce",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/naranja-dulce.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -739,7 +754,7 @@
   {
     "id": "no-recuerdo-la-tarde-partes",
     "title": "no recuerdo la tarde",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/no-recuerdo-la-tarde-partes.pdf",
     "sourceFile": "no recuerdo la tarde - Partes.pdf",
     "tono": "Do Mayor"
@@ -747,7 +762,7 @@
   {
     "id": "no-se-vivir-si-no-es-contigo",
     "title": "No se vivir si no es contigo",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/no-se-vivir-si-no-es-contigo.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -755,7 +770,7 @@
   {
     "id": "olvidarte-nunca",
     "title": "Olvidarte nunca",
-    "composer": "Desconocido",
+    "composer": "Misteriosa",
     "pdf": "/scores/olvidarte-nunca.pdf",
     "sourceFile": "Olvidarte nunca.pdf",
     "tono": "Do Mayor"
@@ -763,7 +778,7 @@
   {
     "id": "pachanga-muertera",
     "title": "PACHANGA MUERTERA",
-    "composer": "Desconocido",
+    "composer": "Puro Santa Rosa Ff Aires Del Pacifico & Trakatera",
     "pdf": "/scores/pachanga-muertera.pdf",
     "sourceFile": "PACHANGA MUERTERA.pdf",
     "tono": "Do Mayor"
@@ -771,7 +786,7 @@
   {
     "id": "pelea-de-gallos",
     "title": "Pelea de gallos",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/pelea-de-gallos.pdf",
     "sourceFile": "Pelea de gallos .pdf",
     "tono": "Do Mayor"
@@ -779,7 +794,7 @@
   {
     "id": "pequena-de-ojos-brujos-banda-la-costena-by-jaime-m-h",
     "title": "Pequeña De Ojos Brujos",
-    "composer": "Banda La Costeña - By Jaime M H",
+    "composer": "La Costeña",
     "pdf": "/scores/pequena-de-ojos-brujos-banda-la-costena-by-jaime-m-h.pdf",
     "sourceFile": "Pequeña De Ojos Brujos - Banda La Costeña - By Jaime M H.pdf",
     "tono": "Do Mayor"
@@ -787,7 +802,7 @@
   {
     "id": "perfecta-banda-pequena-del-valle-ft-banda-la-de-naza",
     "title": "Perfecta",
-    "composer": "Banda Pequeña Del Valle Ft Banda La De Naza",
+    "composer": "Pequeña Del Valle Ft Banda La De Naza",
     "pdf": "/scores/perfecta-banda-pequena-del-valle-ft-banda-la-de-naza.pdf",
     "sourceFile": "Perfecta - Banda Pequeña Del Valle Ft Banda La De Naza.pdf",
     "tono": "Do Mayor"
@@ -795,7 +810,7 @@
   {
     "id": "pichatarito",
     "title": "pichatarito",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/pichatarito.pdf",
     "sourceFile": "pichatarito.pdf",
     "tono": "Do Mayor"
@@ -803,7 +818,7 @@
   {
     "id": "polka-para-tuba-banda-reyna-de-huajuapan",
     "title": "Polka Para Tuba",
-    "composer": "Banda Reyna De Huajuapan",
+    "composer": "Reyna De Huajuapan",
     "pdf": "/scores/polka-para-tuba-banda-reyna-de-huajuapan.pdf",
     "sourceFile": "Polka Para Tuba - Banda Reyna De Huajuapan.pdf",
     "tono": "Do Mayor"
@@ -811,7 +826,7 @@
   {
     "id": "por-que-te-vas",
     "title": "Por que te vas",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/por-que-te-vas.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -819,7 +834,7 @@
   {
     "id": "que-siga-la-danza",
     "title": "Que siga la danza",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/que-siga-la-danza.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -827,7 +842,7 @@
   {
     "id": "quitate-la-falda",
     "title": "Quítate la falda",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/quitate-la-falda.pdf",
     "sourceFile": "Quítate la falda .pdf",
     "tono": "Do Mayor"
@@ -835,7 +850,7 @@
   {
     "id": "rango",
     "title": "Rango",
-    "composer": "Desconocido",
+    "composer": "Misteriosa",
     "pdf": "/scores/rango.pdf",
     "sourceFile": "Rango.pdf",
     "tono": "Do Mayor"
@@ -843,7 +858,7 @@
   {
     "id": "san-miguel",
     "title": "San Miguel",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/san-miguel.pdf",
     "sourceFile": "San Miguel .pdf",
     "tono": "Do Mayor"
@@ -851,7 +866,7 @@
   {
     "id": "selva-tropical",
     "title": "Selva tropical",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/selva-tropical.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -859,7 +874,7 @@
   {
     "id": "septiembre-18",
     "title": "Septiembre 18",
-    "composer": "Banda Puro Santa Rosa",
+    "composer": "Puro Santa Rosa",
     "pdf": "/scores/septiembre-18.pdf",
     "sourceFile": "Septiembre 18.pdf",
     "tono": "Do Mayor"
@@ -867,7 +882,7 @@
   {
     "id": "solo-son-calenda-trompetas",
     "title": "solo son calenda trompetas",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/solo-son-calenda-trompetas.pdf",
     "sourceFile": "solo son calenda trompetas .pdf",
     "tono": "Do Mayor"
@@ -875,7 +890,7 @@
   {
     "id": "somos-abajenos-banda-bucanera",
     "title": "Somos Abajeños",
-    "composer": "Banda Bucanera",
+    "composer": "Bucanera",
     "pdf": "/scores/somos-abajenos-banda-bucanera.pdf",
     "sourceFile": "Somos Abajeños (Banda Bucanera).pdf",
     "tono": "Do Mayor"
@@ -891,7 +906,7 @@
   {
     "id": "son-del-zanate-la-unica-de-guerrero-sc",
     "title": "Son del Zanate · La Unica de Guerrero SC",
-    "composer": "Desconocido",
+    "composer": "La Unica de Guerrero SC",
     "pdf": "/scores/son-del-zanate-la-unica-de-guerrero-sc.pdf",
     "sourceFile": "Son del Zanate · La Unica de Guerrero SC.pdf",
     "tono": "Do Mayor"
@@ -899,7 +914,7 @@
   {
     "id": "son-revolucionario-banda-tromba-sinaoense",
     "title": "Son Revolucionario",
-    "composer": "Banda Tromba Sinaloense",
+    "composer": "Tromba Sinaloense",
     "pdf": "/scores/son-revolucionario-banda-tromba-sinaoense.pdf",
     "sourceFile": "Son Revolucionario - Banda Tromba Sinaoense.pdf",
     "tono": "Do Mayor"
@@ -907,7 +922,7 @@
   {
     "id": "tecateando-banda-el-recodo",
     "title": "Tecateando",
-    "composer": "Banda El Recodo",
+    "composer": "El Recodo",
     "pdf": "/scores/tecateando-banda-el-recodo.pdf",
     "sourceFile": "Tecateando - Banda El Recodo.pdf",
     "tono": "Do Mayor"
@@ -915,7 +930,7 @@
   {
     "id": "tecateando-banda-mm",
     "title": "Tecateando",
-    "composer": "Banda Mm",
+    "composer": "Mm",
     "pdf": "/scores/tecateando-banda-mm.pdf",
     "sourceFile": "Tecateando - Banda mm.pdf",
     "tono": "Do Mayor"
@@ -923,7 +938,7 @@
   {
     "id": "testarudos",
     "title": "Testarudos",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/testarudos.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -931,7 +946,7 @@
   {
     "id": "the-trooper-banda-11-pueblos",
     "title": "the trooper",
-    "composer": "banda 11 pueblos",
+    "composer": "11 pueblos",
     "pdf": "/scores/the-trooper-banda-11-pueblos.pdf",
     "sourceFile": "the trooper - banda 11 pueblos.pdf",
     "tono": "Do Mayor"
@@ -939,15 +954,16 @@
   {
     "id": "trakarosa",
     "title": "Trakarosa",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/trakarosa.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=UtM5ukFFfkU"
   },
   {
     "id": "trinkera",
     "title": "Trinkera",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/trinkera.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -955,7 +971,7 @@
   {
     "id": "vampiro-banda-fresa",
     "title": "Vampiro banda fresa",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/vampiro-banda-fresa.pdf",
     "sourceFile": "Vampiro banda fresa.pdf",
     "tono": "Do Mayor"
@@ -963,7 +979,7 @@
   {
     "id": "xooj-teem-banda-puro-santa-rosa",
     "title": "XOOJ-TEEM-BANDA-PURO-SANTA-ROSA",
-    "composer": "Banda Puro Santa Rosa",
+    "composer": "Puro Santa Rosa",
     "pdf": "/scores/xooj-teem-banda-puro-santa-rosa.pdf",
     "sourceFile": "XOOJ-TEEM-BANDA-PURO-SANTA-ROSA.pdf",
     "tono": "Do Mayor"
@@ -971,7 +987,7 @@
   {
     "id": "yo-te-amo",
     "title": "Yo te amo",
-    "composer": "Desconocido",
+    "composer": " ",
     "pdf": "/scores/yo-te-amo.pdf",
     "missingPdf": true,
     "tono": "Do Mayor"
@@ -979,7 +995,7 @@
   {
     "id": "zombie-monstruoso-partes",
     "title": "Zombie Monstruoso",
-    "composer": "Desconocido",
+    "composer": "Prestigiada FT Aires del Pacifico",
     "pdf": "/scores/zombie-monstruoso-partes.pdf",
     "sourceFile": "Zombie Monstruoso - Partes.pdf",
     "tono": "Do Mayor"
