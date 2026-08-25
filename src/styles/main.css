@@ -1,39 +1,47 @@
 :root,
 [data-theme='light'] {
-  --bg: #f4efe6;
-  --bg-elevated: #fffdf8;
-  --bg-muted: #ebe4d8;
-  --ink: #1a1612;
-  --ink-soft: #5c5348;
-  --line: #d6c0b0;
-  --accent: #9a3412;
-  --accent-soft: #c2410c;
-  --ok: #166534;
-  --ok-bg: #dcfce7;
+  --bg: #f3f6f7;
+  --bg-elevated: #ffffff;
+  --bg-muted: #e4eef0;
+  --ink: #101820;
+  --ink-soft: #4d5d66;
+  --line: #c5d5d9;
+  --accent: #c9a227;
+  --accent-soft: #e5b80b;
+  --accent-deep: #8b5a00;
+  --teal: #0f766e;
+  --teal-soft: #14b8a6;
+  --ok: #0f766e;
+  --ok-bg: #ccfbf1;
   --danger: #991b1b;
   --danger-bg: #fee2e2;
-  --shadow: 0 10px 30px rgba(26, 22, 18, 0.08);
-  --viewer-bg: #2a241c;
+  --shadow: 0 10px 30px rgba(16, 24, 32, 0.08);
+  --viewer-bg: #0b1220;
   --radius: 14px;
   --safe-bottom: env(safe-area-inset-bottom, 0px);
   color-scheme: light;
 }
 
 [data-theme='dark'] {
-  --bg: #0c0a09;
-  --bg-elevated: #171412;
-  --bg-muted: #221e1a;
-  --ink: #f5f0e8;
-  --ink-soft: #a89f92;
-  --line: #3a342c;
-  --accent: #fb923c;
-  --accent-soft: #fdba74;
-  --ok: #4ade80;
-  --ok-bg: #14532d;
+  --bg: #05080c;
+  --bg-elevated: #0f161c;
+  --bg-muted: #172028;
+  --ink: #f4f1e4;
+  --ink-soft: #a8b4bc;
+  --line: #2a3842;
+  --accent: #ffd700;
+  --accent-soft: #ffe566;
+  --accent-deep: #c9a227;
+  --teal: #2dd4bf;
+  --teal-soft: #5eead4;
+  --ok: #2dd4bf;
+  --ok-bg: #115e59;
   --danger: #fca5a5;
   --danger-bg: #7f1d1d;
-  --shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
-  --viewer-bg: #050403;
+  --shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+  --viewer-bg: #020508;
+  --radius: 14px;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
   color-scheme: dark;
 }
 
@@ -53,8 +61,8 @@ body {
   margin: 0;
   font-family: 'Segoe UI', 'Avenir Next', 'Helvetica Neue', sans-serif;
   background:
-    radial-gradient(1200px 600px at 10% -10%, color-mix(in srgb, var(--accent) 18%, transparent), transparent 60%),
-    radial-gradient(900px 500px at 100% 0%, color-mix(in srgb, var(--ok) 10%, transparent), transparent 55%),
+    radial-gradient(1100px 560px at 8% -8%, color-mix(in srgb, var(--accent) 22%, transparent), transparent 58%),
+    radial-gradient(900px 520px at 100% 0%, color-mix(in srgb, var(--teal) 18%, transparent), transparent 55%),
     var(--bg);
   color: var(--ink);
   -webkit-font-smoothing: antialiased;
@@ -131,12 +139,10 @@ button {
 }
 
 .btn-primary {
-  background: var(--accent);
-  color: #fffdf8;
-}
-
-[data-theme='dark'] .btn-primary {
-  color: #1a1208;
+  background: linear-gradient(180deg, var(--accent-soft), var(--accent));
+  color: #14110a;
+  border-color: color-mix(in srgb, var(--accent-deep) 35%, transparent);
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 28%, transparent);
 }
 
 .btn-ghost {

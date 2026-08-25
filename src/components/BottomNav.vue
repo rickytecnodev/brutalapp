@@ -77,6 +77,6 @@ const { offlineCount } = useOfflineScores()
 }
 
 [data-theme='dark'] .badge {
-  color: #1a1208;
+  color: #0b1220;
 }
 </style>

@@ -3,25 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="description" content="Brutal Repertorio — partituras con acceso offline selectivo" />
-    <meta name="theme-color" content="#9a3412" />
+    <meta name="description" content="Brutal App" />
+    <meta name="theme-color" content="#c9a227" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Brutal" />
-    <meta name="application-name" content="Brutal Repertorio" />
+    <meta name="application-name" content="Brutal App" />
     <link rel="icon" href="/icons/icon-32.png" type="image/png" sizes="32x32" />
     <link rel="icon" href="/icons/icon-192.png" type="image/png" sizes="192x192" />
     <link rel="apple-touch-icon" href="/icons/icon-180.png" sizes="180x180" />
     <link rel="apple-touch-icon" href="/icons/icon-192.png" sizes="192x192" />
-    <title>Brutal Repertorio</title>
+    <title>Brutal App</title>
     <script>
       try {
         var t = localStorage.getItem('brutal-theme')
         var dark = t === 'dark' || (t !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches)
         document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light')
         var meta = document.querySelector('meta[name="theme-color"]')
-        if (meta) meta.setAttribute('content', dark ? '#0c0a09' : '#9a3412')
+        if (meta) meta.setAttribute('content', dark ? '#05080c' : '#c9a227')
       } catch (e) {}
     </script>
   </head>

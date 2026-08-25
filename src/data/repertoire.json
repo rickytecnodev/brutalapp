@@ -685,7 +685,8 @@
     "composer": "Banda Reyna De Oaxaca",
     "pdf": "/scores/los-rancheros-banda-reyna-de-oaxaca.pdf",
     "sourceFile": "Los Rancheros - Banda Reyna De Oaxaca.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor", 
+    "listenUrl": "https://www.youtube.com/watch?v=QKqDXaD5Cbk"
   },
   {
     "id": "los-reyes-muerteros",
@@ -858,7 +859,7 @@
   {
     "id": "septiembre-18",
     "title": "Septiembre 18",
-    "composer": "Desconocido",
+    "composer": "Banda Puro Santa Rosa",
     "pdf": "/scores/septiembre-18.pdf",
     "sourceFile": "Septiembre 18.pdf",
     "tono": "Do Mayor"
@@ -898,7 +899,7 @@
   {
     "id": "son-revolucionario-banda-tromba-sinaoense",
     "title": "Son Revolucionario",
-    "composer": "Banda Tromba Sinaoense",
+    "composer": "Banda Tromba Sinaloense",
     "pdf": "/scores/son-revolucionario-banda-tromba-sinaoense.pdf",
     "sourceFile": "Son Revolucionario - Banda Tromba Sinaoense.pdf",
     "tono": "Do Mayor"
@@ -962,7 +963,7 @@
   {
     "id": "xooj-teem-banda-puro-santa-rosa",
     "title": "XOOJ-TEEM-BANDA-PURO-SANTA-ROSA",
-    "composer": "Desconocido",
+    "composer": "Banda Puro Santa Rosa",
     "pdf": "/scores/xooj-teem-banda-puro-santa-rosa.pdf",
     "sourceFile": "XOOJ-TEEM-BANDA-PURO-SANTA-ROSA.pdf",
     "tono": "Do Mayor"

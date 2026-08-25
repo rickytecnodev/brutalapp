@@ -419,7 +419,7 @@ onBeforeUnmount(() => {
   height: 2rem;
   border-radius: 999px;
   border: 3px solid rgba(255, 255, 255, 0.2);
-  border-top-color: #fb923c;
+  border-top-color: var(--accent);
   animation: spin 0.8s linear infinite;
 }
 

@@ -13,7 +13,7 @@ function applyTheme(mode: ThemeMode): void {
   document.documentElement.setAttribute('data-theme', mode)
   const meta = document.querySelector('meta[name="theme-color"]')
   if (meta) {
-    meta.setAttribute('content', mode === 'dark' ? '#0c0a09' : '#9a3412')
+    meta.setAttribute('content', mode === 'dark' ? '#05080c' : '#c9a227')
   }
 }
 

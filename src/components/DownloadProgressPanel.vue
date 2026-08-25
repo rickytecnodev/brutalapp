@@ -121,7 +121,7 @@ watch(
 .fill {
   height: 100%;
   border-radius: inherit;
-  background: linear-gradient(90deg, var(--accent), var(--accent-soft));
+  background: linear-gradient(90deg, var(--teal), var(--accent));
   transition: width 0.2s ease;
 }
 
@@ -136,8 +136,12 @@ watch(
 }
 
 .percent {
-  color: var(--accent);
+  color: var(--accent-deep);
   font-variant-numeric: tabular-nums;
+}
+
+[data-theme='dark'] .percent {
+  color: var(--accent);
 }
 
 .progress-slide-enter-active,

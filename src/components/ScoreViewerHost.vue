@@ -70,8 +70,8 @@ const { selected, open, src, loading, error, unavailableTone, retry, close } = u
   min-width: 11rem;
   padding: 0.85rem 1.2rem;
   border-radius: 14px;
-  border: 1px solid rgba(251, 146, 60, 0.35);
-  background: rgba(251, 146, 60, 0.12);
+  border: 1px solid color-mix(in srgb, var(--teal) 40%, transparent);
+  background: color-mix(in srgb, var(--teal) 14%, transparent);
 }
 
 .tone-card__label {
@@ -79,13 +79,14 @@ const { selected, open, src, loading, error, unavailableTone, retry, close } = u
   font-size: 0.72rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #fdba74;
+  color: var(--teal-soft);
   margin-bottom: 0.25rem;
 }
 
 .tone-card__value {
   font-family: Georgia, 'Iowan Old Style', Palatino, serif;
   font-size: 1.45rem;
+  color: var(--accent);
 }
 
 .spinner {
@@ -94,7 +95,7 @@ const { selected, open, src, loading, error, unavailableTone, retry, close } = u
   margin: 0 auto;
   border-radius: 999px;
   border: 3px solid rgba(255, 255, 255, 0.2);
-  border-top-color: #fb923c;
+  border-top-color: var(--accent);
   animation: spin 0.8s linear infinite;
 }
 

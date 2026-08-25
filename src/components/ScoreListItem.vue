@@ -34,6 +34,20 @@
 
       <button
         type="button"
+        class="item__listen"
+        :class="{ 'item__listen--on': canListen }"
+        :disabled="!canListen"
+        :title="canListen ? 'Escuchar' : 'Sin enlace de audio'"
+        :aria-label="canListen ? 'Escuchar referencia' : 'Escuchar no disponible'"
+        @click.stop="onListen"
+      >
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+          <path fill="currentColor" d="M8 5.14v13.72a1 1 0 0 0 1.5.86l11-6.86a1 1 0 0 0 0-1.72l-11-6.86a1 1 0 0 0-1.5.86z" />
+        </svg>
+      </button>
+
+      <button
+        type="button"
         class="btn item__action"
         :class="isOffline(score) ? 'btn-danger' : 'btn-ghost'"
         :disabled="isBusy(score.id) || score.missingPdf || (batch.active && !isOffline(score))"
@@ -49,7 +63,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import type { ScoreListItemModel } from '@/types/score'
-import { scoreTono } from '@/types/score'
+import { scoreListenUrl, scoreTono } from '@/types/score'
 import OfflineBadge from '@/components/OfflineBadge.vue'
 import { useOfflineScores } from '@/composables/useOfflineScores'
 import { useScoreViewer } from '@/composables/useScoreViewer'
@@ -67,6 +81,8 @@ const { openScore } = useScoreViewer()
 
 const progress = computed(() => getProgress(props.score.id))
 const tono = computed(() => scoreTono(props.score))
+const listenHref = computed(() => scoreListenUrl(props.score))
+const canListen = computed(() => Boolean(listenHref.value))
 
 const actionLabel = computed(() => {
   if (progress.value !== null) return `${progress.value}%`
@@ -75,6 +91,11 @@ const actionLabel = computed(() => {
   if (batch.value.active) return 'Espera'
   return 'Guardar'
 })
+
+function onListen(): void {
+  if (!listenHref.value) return
+  window.open(listenHref.value, '_blank', 'noopener,noreferrer')
+}
 
 async function onToggle(): Promise<void> {
   try {
@@ -139,7 +160,7 @@ async function onToggle(): Promise<void> {
 .item__progress-fill {
   height: 100%;
   border-radius: inherit;
-  background: linear-gradient(90deg, var(--accent), var(--accent-soft));
+  background: linear-gradient(90deg, var(--teal), var(--accent));
   transition: width 0.15s ease;
 }
 
@@ -186,9 +207,60 @@ p {
   font-size: 0.88rem;
 }
 
+.item__listen {
+  width: 2.15rem;
+  height: 2.15rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--bg-muted);
+  color: var(--ink-soft);
+  display: grid;
+  place-items: center;
+  padding: 0;
+  flex-shrink: 0;
+  transition:
+    background 0.15s ease,
+    color 0.15s ease,
+    border-color 0.15s ease,
+    transform 0.15s ease;
+}
+
+.item__listen svg {
+  margin-left: 0.12rem;
+}
+
+.item__listen--on {
+  background: #ff0000;
+  border-color: #cc0000;
+  color: #ffffff;
+}
+
+.item__listen--on:hover {
+  transform: scale(1.05);
+  background: #cc0000;
+  border-color: transparent;
+  color: #ffffff;
+}
+
+.item__listen:disabled {
+  opacity: 0.38;
+  cursor: not-allowed;
+  background: var(--bg-muted);
+  border-color: var(--line);
+  color: var(--ink-soft);
+}
+
 .item__action {
   min-width: 5.4rem;
   padding: 0.5rem 0.75rem;
   font-size: 0.82rem;
+}
+
+@media (max-width: 520px) {
+  .item__side {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    max-width: 11.5rem;
+  }
 }
 </style>
