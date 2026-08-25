@@ -1,5 +1,6 @@
 import { ref } from 'vue'
 import type { Score } from '@/types/score'
+import { scoreTono } from '@/types/score'
 import { getScoreBlobUrl, isScoreCached, resolveScoreUrl } from '@/services/offlineCache'
 
 const selected = ref<Score | null>(null)
@@ -7,6 +8,7 @@ const open = ref(false)
 const src = ref<string | null>(null)
 const loading = ref(false)
 const error = ref<string | null>(null)
+const unavailableTone = ref<string | null>(null)
 
 let objectUrl: string | null = null
 
@@ -17,16 +19,19 @@ function clearObjectUrl(): void {
   }
 }
 
-async function assertPdfReachable(url: string, missingPdf?: boolean): Promise<void> {
+function missingPdfMessage(score: Score): string {
+  const tono = scoreTono(score)
+  return `El PDF no está disponible por ahora. La tonalidad es ${tono}.`
+}
+
+async function assertPdfReachable(url: string, score: Score): Promise<void> {
   const response = await fetch(url, { method: 'GET', cache: 'no-store' })
   if (!response.ok) {
-    throw new Error(
-      missingPdf
-        ? 'PDF pendiente: aún no está en public/scores/.'
-        : `No se pudo cargar el PDF (${response.status}).`,
-    )
+    if (score.missingPdf || response.status === 404) {
+      throw new Error(missingPdfMessage(score))
+    }
+    throw new Error(`No se pudo cargar el PDF (${response.status}).`)
   }
-  // Consumir poco: no hace falta el body completo aquí; pdf.js vuelve a pedir la URL.
   try {
     await response.body?.cancel()
   } catch {
@@ -35,6 +40,10 @@ async function assertPdfReachable(url: string, missingPdf?: boolean): Promise<vo
 }
 
 async function resolveSource(score: Score): Promise<string> {
+  if (score.missingPdf) {
+    throw new Error(missingPdfMessage(score))
+  }
+
   const cached = await isScoreCached(score.pdf)
   if (cached) {
     const blobUrl = await getScoreBlobUrl(score.pdf)
@@ -49,7 +58,7 @@ async function resolveSource(score: Score): Promise<string> {
   }
 
   const url = resolveScoreUrl(score.pdf)
-  await assertPdfReachable(url, score.missingPdf)
+  await assertPdfReachable(url, score)
   return url
 }
 
@@ -59,13 +68,18 @@ export function useScoreViewer() {
     open.value = true
     loading.value = true
     error.value = null
+    unavailableTone.value = null
     clearObjectUrl()
     src.value = null
 
     try {
       src.value = await resolveSource(score)
     } catch (err) {
-      error.value = err instanceof Error ? err.message : 'No se pudo abrir la partitura.'
+      const message = err instanceof Error ? err.message : 'No se pudo abrir la partitura.'
+      error.value = message
+      if (score.missingPdf || message.includes('tonalidad')) {
+        unavailableTone.value = scoreTono(score)
+      }
     } finally {
       loading.value = false
     }
@@ -81,6 +95,7 @@ export function useScoreViewer() {
     clearObjectUrl()
     src.value = null
     error.value = null
+    unavailableTone.value = null
     loading.value = false
   }
 
@@ -90,6 +105,7 @@ export function useScoreViewer() {
     src,
     loading,
     error,
+    unavailableTone,
     openScore,
     retry,
     close,

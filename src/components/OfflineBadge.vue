@@ -1,8 +1,10 @@
 <template>
-  <span class="badge" :class="offline ? 'badge--ok' : 'badge--muted'">
-    <span class="dot" aria-hidden="true" />
-    {{ offline ? 'Offline' : 'En línea' }}
-  </span>
+  <span
+    class="dot"
+    :class="offline ? 'dot--ok' : 'dot--off'"
+    :title="offline ? 'Disponible offline' : 'Solo en línea'"
+    :aria-label="offline ? 'Disponible offline' : 'Solo en línea'"
+  />
 </template>
 
 <script setup lang="ts">
@@ -10,32 +12,20 @@ defineProps<{ offline: boolean }>()
 </script>
 
 <style scoped>
-.badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  padding: 0.28rem 0.55rem;
-  border-radius: 999px;
-}
-
-.badge--ok {
-  background: var(--ok-bg);
-  color: var(--ok);
-}
-
-.badge--muted {
-  background: var(--bg-muted);
-  color: var(--ink-soft);
-}
-
 .dot {
-  width: 0.45rem;
-  height: 0.45rem;
+  width: 0.55rem;
+  height: 0.55rem;
   border-radius: 999px;
-  background: currentColor;
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.dot--ok {
+  background: var(--ok);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--ok) 22%, transparent);
+}
+
+.dot--off {
+  background: color-mix(in srgb, var(--ink-soft) 45%, transparent);
 }
 </style>

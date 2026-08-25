@@ -4,32 +4,52 @@
       <div class="item__meta">
         <h2>{{ score.title }}</h2>
         <p>{{ score.composer }}</p>
+        <p v-if="score.missingPdf" class="tono">Tono: {{ tono }}</p>
         <div v-if="progress !== null" class="item__progress" aria-hidden="true">
           <div class="item__progress-fill" :style="{ width: `${progress}%` }" />
         </div>
       </div>
-      <div class="item__badges">
-        <span v-if="score.missingPdf" class="pending">Sin PDF</span>
-        <span v-else-if="progress !== null" class="downloading">{{ progress }}%</span>
-        <OfflineBadge v-else :offline="isOffline(score)" />
-      </div>
     </button>
-    <button
-      type="button"
-      class="btn item__action"
-      :class="isOffline(score) ? 'btn-danger' : 'btn-ghost'"
-      :disabled="isBusy(score.id) || score.missingPdf || (batch.active && !isOffline(score))"
-      :aria-label="isOffline(score) ? 'Eliminar de offline' : 'Guardar para offline'"
-      @click.stop="onToggle"
-    >
-      {{ actionLabel }}
-    </button>
+
+    <div class="item__side">
+      <span
+        v-if="score.missingPdf"
+        class="pdf-miss"
+        title="PDF no disponible"
+        aria-label="PDF no disponible"
+      >
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+          <path
+            fill="currentColor"
+            d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm1 7V3.5L19.5 9H15zM8.5 18l1.2-3.2h.1L11 18h1.4l-1.8-4.2L12.5 10H11l-1.1 3.1h-.1L8.7 10H7.2L9 13.8 7.2 18h1.3zm5.2 0h3.6v-1.1h-2.3v-1.2h2.1v-1.1h-2.1V12h2.3V10.9h-3.6V18z"
+          />
+          <path
+            fill="currentColor"
+            d="M4.2 5.6 18.4 19.8l1.1-1.1L5.3 4.5 4.2 5.6z"
+          />
+        </svg>
+      </span>
+      <span v-else-if="progress !== null" class="downloading">{{ progress }}%</span>
+      <OfflineBadge v-else-if="isOffline(score)" :offline="true" />
+
+      <button
+        type="button"
+        class="btn item__action"
+        :class="isOffline(score) ? 'btn-danger' : 'btn-ghost'"
+        :disabled="isBusy(score.id) || score.missingPdf || (batch.active && !isOffline(score))"
+        :aria-label="isOffline(score) ? 'Eliminar de offline' : 'Guardar para offline'"
+        @click.stop="onToggle"
+      >
+        {{ actionLabel }}
+      </button>
+    </div>
   </article>
 </template>
 
 <script setup lang="ts">
 import { computed } from 'vue'
 import type { ScoreListItemModel } from '@/types/score'
+import { scoreTono } from '@/types/score'
 import OfflineBadge from '@/components/OfflineBadge.vue'
 import { useOfflineScores } from '@/composables/useOfflineScores'
 import { useScoreViewer } from '@/composables/useScoreViewer'
@@ -46,11 +66,12 @@ const { isOffline, isBusy, getProgress, toggle, batch } = useOfflineScores()
 const { openScore } = useScoreViewer()
 
 const progress = computed(() => getProgress(props.score.id))
+const tono = computed(() => scoreTono(props.score))
 
 const actionLabel = computed(() => {
   if (progress.value !== null) return `${progress.value}%`
   if (isBusy(props.score.id)) return '…'
-  if (isOffline(props.score)) return 'Quitar'
+  if (isOffline(props.score)) return 'Eliminar'
   if (batch.value.active) return 'Espera'
   return 'Guardar'
 })
@@ -80,10 +101,7 @@ async function onToggle(): Promise<void> {
 }
 
 .item__main {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 0.75rem;
+  display: block;
   min-width: 0;
   border: 0;
   background: transparent;
@@ -101,7 +119,13 @@ async function onToggle(): Promise<void> {
 
 .item__meta {
   min-width: 0;
-  flex: 1;
+}
+
+.item__side {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  flex-shrink: 0;
 }
 
 .item__progress {
@@ -119,15 +143,15 @@ async function onToggle(): Promise<void> {
   transition: width 0.15s ease;
 }
 
-.item__badges {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 0.3rem;
-  flex-shrink: 0;
+.pdf-miss {
+  display: grid;
+  place-items: center;
+  width: 1.7rem;
+  height: 1.7rem;
+  color: var(--danger);
+  opacity: 0.9;
 }
 
-.pending,
 .downloading {
   display: inline-flex;
   align-items: center;
@@ -135,19 +159,18 @@ async function onToggle(): Promise<void> {
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  padding: 0.28rem 0.55rem;
+  padding: 0.28rem 0.45rem;
   border-radius: 999px;
-}
-
-.pending {
-  background: color-mix(in srgb, var(--accent) 16%, var(--bg-muted));
-  color: var(--accent);
-}
-
-.downloading {
   background: color-mix(in srgb, var(--accent) 18%, transparent);
   color: var(--accent);
   font-variant-numeric: tabular-nums;
+}
+
+.tono {
+  margin: 0.3rem 0 0;
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 h2 {

@@ -5,10 +5,21 @@
       <p>Cargando partitura…</p>
     </div>
     <div v-else-if="open && error" class="boot boot--error" role="alertdialog">
+      <div v-if="unavailableTone" class="tone-card">
+        <span class="tone-card__label">Tonalidad</span>
+        <strong class="tone-card__value">{{ unavailableTone }}</strong>
+      </div>
       <p>{{ error }}</p>
       <div class="boot__actions">
         <button type="button" class="btn btn-ghost" @click="close">Cerrar</button>
-        <button type="button" class="btn btn-primary" @click="retry">Reintentar</button>
+        <button
+          v-if="!unavailableTone"
+          type="button"
+          class="btn btn-primary"
+          @click="retry"
+        >
+          Reintentar
+        </button>
       </div>
     </div>
   </Teleport>
@@ -27,7 +38,7 @@
 import PdfViewer from '@/components/PdfViewer.vue'
 import { useScoreViewer } from '@/composables/useScoreViewer'
 
-const { selected, open, src, loading, error, retry, close } = useScoreViewer()
+const { selected, open, src, loading, error, unavailableTone, retry, close } = useScoreViewer()
 </script>
 
 <style scoped>
@@ -52,6 +63,29 @@ const { selected, open, src, loading, error, retry, close } = useScoreViewer()
   display: flex;
   justify-content: center;
   gap: 0.5rem;
+}
+
+.tone-card {
+  justify-self: center;
+  min-width: 11rem;
+  padding: 0.85rem 1.2rem;
+  border-radius: 14px;
+  border: 1px solid rgba(251, 146, 60, 0.35);
+  background: rgba(251, 146, 60, 0.12);
+}
+
+.tone-card__label {
+  display: block;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fdba74;
+  margin-bottom: 0.25rem;
+}
+
+.tone-card__value {
+  font-family: Georgia, 'Iowan Old Style', Palatino, serif;
+  font-size: 1.45rem;
 }
 
 .spinner {
