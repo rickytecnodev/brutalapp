@@ -118,9 +118,9 @@
     "title": "Carnavalesco",
     "composer": " ",
     "pdf": "/scores/carnavalesco.pdf",
-    "missingPdf": true,
     "tono": "Do Mayor",
-    "listenUrl": "https://www.youtube.com/watch?v=Xm5GtwpQHvo"
+    "listenUrl": "https://www.youtube.com/watch?v=Xm5GtwpQHvo",
+    "sourceFile": "carnavalesco.pdf"
   },
   {
     "id": "chinelo-carnavalero",
@@ -153,9 +153,9 @@
     "title": "Corazón de texas",
     "composer": " ",
     "pdf": "/scores/corazon-de-texas.pdf",
-    "missingPdf": true,
     "tono": "Do Mayor",
-    "listenUrl": "https://www.youtube.com/watch?v=ewDo-YcU30E"
+    "listenUrl": "https://www.youtube.com/watch?v=ewDo-YcU30E",
+    "sourceFile": "corazon-de-texas.pdf"
   },
   {
     "id": "corazon-partio",
@@ -294,7 +294,7 @@
     "composer": " ",
     "pdf": "/scores/el-inigualable.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor",
+    "tono": "Des.",
     "listenUrl": "https://www.youtube.com/watch?v=7a3C9FAYP7k"
   },
   {
@@ -303,7 +303,7 @@
     "composer": " ",
     "pdf": "/scores/el-italiano.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor",
+    "tono": "Des.",
     "listenUrl": "https://www.youtube.com/watch?v=A0uvAj6vAfM"
   },
   {
@@ -328,9 +328,9 @@
     "title": "El niño perdido",
     "composer": " ",
     "pdf": "/scores/el-nino-perdido.pdf",
-    "missingPdf": true,
     "tono": "Do Mayor",
-    "listenUrl": "https://www.youtube.com/watch?v=YbOEKL7R8TA"
+    "listenUrl": "https://www.youtube.com/watch?v=YbOEKL7R8TA",
+    "sourceFile": "el-nino-perdido.pdf"
   },
   {
     "id": "payaso-de-rodeo",
@@ -401,9 +401,9 @@
     "title": "El tlacololero",
     "composer": " ",
     "pdf": "/scores/el-tlacololero.pdf",
-    "missingPdf": true,
     "tono": "Do Mayor",
-    "listenUrl": "https://www.youtube.com/watch?v=XcrqOTxIBSQ"
+    "listenUrl": "https://www.youtube.com/watch?v=XcrqOTxIBSQ",
+    "sourceFile": "el-tlacololero.pdf"
   },
   {
     "id": "el-toro-mambo-banda-el-recodo",
@@ -428,7 +428,7 @@
     "composer": " ",
     "pdf": "/scores/el-vagabundo.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor",
+    "tono": "Des.",
     "listenUrl": "https://www.youtube.com/watch?v=unXIZcTGOTg"
   },
   {
@@ -637,9 +637,9 @@
     "title": "La pedota",
     "composer": " ",
     "pdf": "/scores/la-pedota.pdf",
-    "missingPdf": true,
     "tono": "Do Mayor",
-    "listenUrl": "https://www.youtube.com/watch?v=T_fyWgEOtvM"
+    "listenUrl": "https://www.youtube.com/watch?v=T_fyWgEOtvM",
+    "sourceFile": "la-pedota.pdf"
   },
   {
     "id": "la-peinada",
@@ -662,9 +662,9 @@
     "title": "La secretaria",
     "composer": " ",
     "pdf": "/scores/la-secretaria.pdf",
-    "missingPdf": true,
     "tono": "Do Mayor",
-    "listenUrl": "https://www.youtube.com/watch?v=JxCGIq3hSvc"
+    "listenUrl": "https://www.youtube.com/watch?v=JxCGIq3hSvc",
+    "sourceFile": "la-secretaria.pdf"
   },
   {
     "id": "tuba-gedionda",
@@ -681,7 +681,7 @@
     "composer": " ",
     "pdf": "/scores/la-ultima-pachanga.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor",
+    "tono": "Des.",
     "listenUrl": "https://www.youtube.com/watch?v=2TdFpKf0PHM"
   },
   {
@@ -902,7 +902,7 @@
     "composer": " ",
     "pdf": "/scores/por-que-te-vas.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor",
+    "tono": "Des.",
     "listenUrl": "https://www.youtube.com/watch?v=W3arFOeMLk0"
   },
   {
@@ -1023,9 +1023,9 @@
     "title": "Testarudos",
     "composer": " ",
     "pdf": "/scores/testarudos.pdf",
-    "missingPdf": true,
     "tono": "Do Mayor",
-    "listenUrl": "https://www.youtube.com/watch?v=VPprd3vqFsY"
+    "listenUrl": "https://www.youtube.com/watch?v=VPprd3vqFsY",
+    "sourceFile": "testarudos.pdf"
   },
   {
     "id": "the-throoper",
@@ -1051,7 +1051,7 @@
     "composer": " ",
     "pdf": "/scores/trinkera.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor",
+    "tono": "Des.",
     "listenUrl": "https://www.youtube.com/watch?v=JJAubD5GQNA"
   },
   {
