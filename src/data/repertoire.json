@@ -4,9 +4,9 @@
     "title": "1 de noviembre",
     "composer": " ",
     "pdf": "/scores/1-de-noviembre.pdf",
-    "missingPdf": true,
     "tono": "Do Mayor",
-    "listenUrl": "https://www.youtube.com/watch?v=cM-gPB1DilQ"
+    "listenUrl": "https://www.youtube.com/watch?v=cM-gPB1DilQ",
+    "sourceFile": "Primero de noviembre.pdf"
   },
   {
     "id": "5-de-te",
@@ -38,8 +38,8 @@
     "id": "adolorido-del-corazon",
     "title": "Adolorido del corazón",
     "composer": " ",
-    "pdf": "/scores/adolorido-del-corazon.pdf",
-    "missingPdf": true,
+    "pdf": "/scores/adolorido.pdf",
+    "sourceFile": "Adolorido del corazon.pdf",
     "tono": "Do Mayor",
     "listenUrl": "https://www.youtube.com/watch?v=vL4D-q57nn0"
   },
@@ -65,7 +65,7 @@
     "title": "Asereje",
     "composer": " ",
     "pdf": "/scores/asereje.pdf",
-    "missingPdf": true,
+    "sourceFile": "Asereje.pdf",
     "tono": "Do Mayor",
     "listenUrl": "https://www.youtube.com/watch?v=IoqFh4qyiOM"
   },
@@ -206,7 +206,7 @@
     "composer": " ",
     "pdf": "/scores/el-alacran.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor",
+    "tono": "Re menor",
     "listenUrl": "https://www.youtube.com/watch?v=dkpx1zSEQ7U"
   },
   {
@@ -258,9 +258,9 @@
     "title": "El cumbanchero",
     "composer": " ",
     "pdf": "/scores/el-cumbanchero.pdf",
-    "missingPdf": true,
     "tono": "Do Mayor",
-    "listenUrl": "https://www.youtube.com/watch?v=2Rsc5w2-DCU"
+    "listenUrl": "https://www.youtube.com/watch?v=2Rsc5w2-DCU",
+    "sourceFile": "El Cumbanchero.pdf"
   },
   {
     "id": "el-farol-recodo",
@@ -355,9 +355,9 @@
     "title": "El pirata",
     "composer": " ",
     "pdf": "/scores/el-pirata.pdf",
-    "missingPdf": true,
     "tono": "Do Mayor",
-    "listenUrl": "https://www.youtube.com/watch?v=hjFAt1qeIaM"
+    "listenUrl": "https://www.youtube.com/watch?v=hjFAt1qeIaM",
+    "sourceFile": "El Pirata.pdf"
   },
   {
     "id": "el-rey",
@@ -365,6 +365,7 @@
     "composer": "El Coyote",
     "pdf": "/scores/el-rey.pdf",
     "sourceFile": "El Rey - El Coyote.pdf",
+    "missingPdf": true,
     "tono": "Do Mayor",
     "listenUrl": "https://www.youtube.com/watch?v=qOvA-wKhHPw"
   },
@@ -557,9 +558,9 @@
     "title": "La calandria y los correcaminos",
     "composer": " ",
     "pdf": "/scores/la-calandria-y-los-correcaminos.pdf",
-    "missingPdf": true,
     "tono": "Do Mayor",
-    "listenUrl": "https://www.youtube.com/watch?v=ETgobJM752U"
+    "listenUrl": "https://www.youtube.com/watch?v=ETgobJM752U",
+    "sourceFile": "La Calandria Y El Correcaminos.pdf"
   },
   {
     "id": "la-calavera",
@@ -670,7 +671,7 @@
     "title": "Tuba gedionda",
     "composer": "Tierra Mojada",
     "pdf": "/scores/tuba-gedionda.pdf",
-    "sourceFile": "La Tuba Hedionda - Banda Tierra Mojada.pdf",
+    "sourceFile": "La tuba gedionda.pdf",
     "tono": "Do Mayor",
     "listenUrl": "https://www.youtube.com/watch?v=GwfsTFdy5EY"
   },
@@ -778,7 +779,7 @@
     "composer": " ",
     "pdf": "/scores/los-tiliches.pdf",
     "missingPdf": true,
-    "tono": "Do Mayor",
+    "tono": "Sol menor",
     "listenUrl": "https://www.youtube.com/watch?v=2rJPHVq_e30"
   },
   {
@@ -829,9 +830,9 @@
     "title": "No se vivir si no es contigo",
     "composer": " ",
     "pdf": "/scores/no-se-vivir-si-no-es-contigo.pdf",
-    "missingPdf": true,
     "tono": "Do Mayor",
-    "listenUrl": "https://www.youtube.com/watch?v=_E-JJNE9xQU"
+    "listenUrl": "https://www.youtube.com/watch?v=_E-JJNE9xQU",
+    "sourceFile": "No se vivir si no es contigo.pdf"
   },
   {
     "id": "olvidarte-nunca",
@@ -1040,9 +1041,9 @@
     "title": "Trakarosa",
     "composer": " ",
     "pdf": "/scores/trakarosa.pdf",
-    "missingPdf": true,
     "tono": "Do Mayor",
-    "listenUrl": "https://www.youtube.com/watch?v=UtM5ukFFfkU"
+    "listenUrl": "https://www.youtube.com/watch?v=UtM5ukFFfkU",
+    "sourceFile": "LA TRAKAROSA.pdf"
   },
   {
     "id": "trinkera",
