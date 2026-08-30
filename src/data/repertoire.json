@@ -245,15 +245,6 @@
     "listenUrl": "https://www.youtube.com/watch?v=82sod6LAIzU"
   },
   {
-    "id": "el-coyotito",
-    "title": "El coyotito",
-    "composer": " ",
-    "pdf": "/scores/el-coyotito.pdf",
-    "missingPdf": true,
-    "tono": "Do Mayor",
-    "listenUrl": "https://www.youtube.com/watch?v=l5t8wMTbjFY"
-  },
-  {
     "id": "el-cumbanchero",
     "title": "El cumbanchero",
     "composer": " ",
@@ -581,20 +572,11 @@
     "listenUrl": "https://www.youtube.com/watch?v=fmGOwZtSN0Q"
   },
   {
-    "id": "la-danza-del-coyote-banda-triguera",
+    "id": "la-danza-del-coyote",
     "title": "La Danza Del Coyote",
     "composer": "Triguera",
-    "pdf": "/scores/la-danza-del-coyote-banda-triguera.pdf",
-    "sourceFile": "La Danza Del Coyote - Banda Triguera.pdf",
-    "tono": "Do Mayor",
-    "listenUrl": "https://www.youtube.com/watch?v=BvOx-WQmAaU"
-  },
-  {
-    "id": "la-danza-del-coyote-banda-triguera-083414",
-    "title": "La Danza Del Coyote",
-    "composer": "Triguera_083414",
-    "pdf": "/scores/la-danza-del-coyote-banda-triguera-083414.pdf",
-    "sourceFile": "La Danza Del Coyote - Banda Triguera_083414.pdf",
+    "pdf": "/scores/la-danza-del-coyote.pdf",
+    "sourceFile": "La Danza Del Coyote.pdf",
     "tono": "Do Mayor",
     "listenUrl": "https://www.youtube.com/watch?v=BvOx-WQmAaU"
   },
