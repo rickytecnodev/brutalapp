@@ -284,18 +284,18 @@
     "title": "El inigualable",
     "composer": " ",
     "pdf": "/scores/el-inigualable.pdf",
-    "missingPdf": true,
     "tono": "Des.",
-    "listenUrl": "https://www.youtube.com/watch?v=7a3C9FAYP7k"
+    "listenUrl": "https://www.youtube.com/watch?v=7a3C9FAYP7k",
+    "sourceFile": "el-inigualable.pdf"
   },
   {
     "id": "el-italiano",
     "title": "El italiano",
     "composer": " ",
     "pdf": "/scores/el-italiano.pdf",
-    "missingPdf": true,
     "tono": "Des.",
-    "listenUrl": "https://www.youtube.com/watch?v=A0uvAj6vAfM"
+    "listenUrl": "https://www.youtube.com/watch?v=A0uvAj6vAfM",
+    "sourceFile": "el-italiano.pdf"
   },
   {
     "id": "el-kraken",
@@ -662,9 +662,9 @@
     "title": "La última pachanga",
     "composer": " ",
     "pdf": "/scores/la-ultima-pachanga.pdf",
-    "missingPdf": true,
     "tono": "Des.",
-    "listenUrl": "https://www.youtube.com/watch?v=2TdFpKf0PHM"
+    "listenUrl": "https://www.youtube.com/watch?v=2TdFpKf0PHM",
+    "sourceFile": "la-ultima-pachanga.pdf"
   },
   {
     "id": "virgen-de-la-macarena",
@@ -1032,9 +1032,9 @@
     "title": "Trinkera",
     "composer": " ",
     "pdf": "/scores/trinkera.pdf",
-    "missingPdf": true,
     "tono": "Des.",
-    "listenUrl": "https://www.youtube.com/watch?v=JJAubD5GQNA"
+    "listenUrl": "https://www.youtube.com/watch?v=JJAubD5GQNA",
+    "sourceFile": "trinkera.pdf"
   },
   {
     "id": "vampiro-banda-fresa",
@@ -1058,9 +1058,9 @@
     "title": "Yo te amo",
     "composer": " ",
     "pdf": "/scores/yo-te-amo.pdf",
-    "missingPdf": true,
     "tono": "Do Mayor",
-    "listenUrl": "https://www.youtube.com/watch?v=puYXRikcZ0g"
+    "listenUrl": "https://www.youtube.com/watch?v=puYXRikcZ0g",
+    "sourceFile": "yo-te-amo.pdf"
   },
   {
     "id": "el-zombie",
