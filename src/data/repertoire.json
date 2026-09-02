@@ -127,7 +127,7 @@
     "title": "Chinelo carnavalero",
     "composer": " ",
     "pdf": "/scores/chinelo-carnavalero.pdf",
-    "missingPdf": true,
+    "sourceFile": "Chinelo carnavalero.pdf",
     "tono": "Do Mayor",
     "listenUrl": "https://www.youtube.com/watch?v=1vyObwIs8Pc"
   },
@@ -144,7 +144,7 @@
     "title": "Conjunto mar azul",
     "composer": " ",
     "pdf": "/scores/conjunto-mar-azul.pdf",
-    "missingPdf": true,
+    "sourceFile": "Conjunto mar azul.pdf",
     "tono": "Do Mayor",
     "listenUrl": "https://www.youtube.com/watch?v=Tvr3RtYG93Q"
   },
@@ -418,7 +418,7 @@
     "title": "El vagabundo",
     "composer": " ",
     "pdf": "/scores/el-vagabundo.pdf",
-    "missingPdf": true,
+    "sourceFile": "El vagabundo.pdf",
     "tono": "Des.",
     "listenUrl": "https://www.youtube.com/watch?v=unXIZcTGOTg"
   },
@@ -481,7 +481,7 @@
     "title": "Guitarras de paracho",
     "composer": " ",
     "pdf": "/scores/guitarras-de-paracho.pdf",
-    "missingPdf": true,
+    "sourceFile": "Guitarras de paracho.pdf",
     "tono": "Do Mayor",
     "listenUrl": "https://www.youtube.com/watch?v=T4KngBePXJs"
   },
@@ -795,7 +795,7 @@
     "title": "Naranja dulce",
     "composer": " ",
     "pdf": "/scores/naranja-dulce.pdf",
-    "missingPdf": true,
+    "sourceFile": "Naranja dulce.pdf",
     "tono": "Do Mayor",
     "listenUrl": "https://www.youtube.com/watch?v=LHjJWxqYUho"
   },
@@ -883,7 +883,7 @@
     "title": "Por qué te vas",
     "composer": " ",
     "pdf": "/scores/te-vas.pdf",
-    "missingPdf": true,
+    "sourceFile": "Por qué te vas.pdf",
     "tono": "Des.",
     "listenUrl": "https://www.youtube.com/watch?v=W3arFOeMLk0"
   },
@@ -892,7 +892,7 @@
     "title": "Que siga la danza",
     "composer": " ",
     "pdf": "/scores/que-siga-la-danza.pdf",
-    "missingPdf": true,
+    "sourceFile": "Por qué te vas.pdf",
     "tono": "Do Mayor",
     "listenUrl": "https://www.youtube.com/watch?v=z740tK3qavw"
   },
@@ -927,7 +927,7 @@
     "title": "Selva tropical",
     "composer": " ",
     "pdf": "/scores/selva-tropical.pdf",
-    "missingPdf": true,
+    "sourceFile": "Selva tropical.pdf",
     "tono": "Do Mayor",
     "listenUrl": "https://www.youtube.com/watch?v=YdlHC044LPA"
   },
