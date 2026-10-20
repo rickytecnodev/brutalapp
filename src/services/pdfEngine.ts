@@ -1,18 +1,45 @@
-import { GlobalWorkerOptions, getDocument, type PDFDocumentProxy } from 'pdfjs-dist'
-import pdfWorker from 'pdfjs-dist/build/pdf.worker.min.mjs?url'
+import type { PDFDocumentProxy } from 'pdfjs-dist'
 
-let workerReady = false
+type PdfJs = typeof import('pdfjs-dist')
 
-export function ensurePdfWorker(): void {
-  if (workerReady) return
-  GlobalWorkerOptions.workerSrc = pdfWorker
-  workerReady = true
+/**
+ * PDF.js moderno usa Map.prototype.getOrInsertComputed.
+ * Si el navegador no lo trae, el build legacy lo define.
+ * Se decide antes de importar, porque el legacy lo instala al cargarse.
+ */
+const useLegacyPdf =
+  typeof (Map.prototype as { getOrInsertComputed?: unknown }).getOrInsertComputed !== 'function'
+
+let pdfJsPromise: Promise<PdfJs> | null = null
+let workerReady: Promise<void> | null = null
+
+function loadPdfJs(): Promise<PdfJs> {
+  if (!pdfJsPromise) {
+    pdfJsPromise = useLegacyPdf
+      ? import('pdfjs-dist/legacy/build/pdf.mjs')
+      : import('pdfjs-dist')
+  }
+  return pdfJsPromise
+}
+
+export function ensurePdfWorker(): Promise<void> {
+  if (!workerReady) {
+    workerReady = (async () => {
+      const pdfjs = await loadPdfJs()
+      const worker = useLegacyPdf
+        ? await import('pdfjs-dist/legacy/build/pdf.worker.min.mjs?url')
+        : await import('pdfjs-dist/build/pdf.worker.min.mjs?url')
+      pdfjs.GlobalWorkerOptions.workerSrc = worker.default
+    })()
+  }
+  return workerReady
 }
 
 export type PdfSource = string | ArrayBuffer | Uint8Array
 
 export async function loadPdfDocument(src: PdfSource): Promise<PDFDocumentProxy> {
-  ensurePdfWorker()
+  await ensurePdfWorker()
+  const { getDocument } = await loadPdfJs()
 
   const task =
     typeof src === 'string'

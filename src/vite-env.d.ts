@@ -6,6 +6,11 @@ declare module 'pdfjs-dist/build/pdf.worker.min.mjs?url' {
   export default workerSrc
 }
 
+declare module 'pdfjs-dist/legacy/build/pdf.worker.min.mjs?url' {
+  const workerSrc: string
+  export default workerSrc
+}
+
 declare module '*.vue' {
   import type { DefineComponent } from 'vue'
   const component: DefineComponent<object, object, unknown>
