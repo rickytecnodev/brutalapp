@@ -35,6 +35,15 @@
     "listenUrl": "https://www.youtube.com/watch?v=C-j4YOWIITM"
   },
   {
+    "id": "a-mover-el-chikistrikis",
+    "title": "A mover el chikistrikis",
+    "composer": "Sangre del Valle",
+    "pdf": "/scores/a-mover-el-chikistrikis-partes_compress.pdf",
+    "sourceFile": "a-mover-el-chikistrikis-partes_compress.pdf",
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=KVLwHUVf_Bw"
+  },
+  {
     "id": "adolorido-del-corazon",
     "title": "Adolorido del corazón",
     "composer": " ",
@@ -42,6 +51,15 @@
     "sourceFile": "Adolorido del corazon.pdf",
     "tono": "Do Mayor",
     "listenUrl": "https://www.youtube.com/watch?v=vL4D-q57nn0"
+  },
+  {
+    "id": "amame",
+    "title": "Ámame",
+    "composer": "Puro Santa Rosa",
+    "pdf": "/scores/amame-Banda-Puro-Santa-Rosa.pdf",
+    "sourceFile": "amame-Banda-Puro-Santa-Rosa.pdf",
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=23DE1COLG1I"
   },
   {
     "id": "amores-de-montana",
@@ -455,7 +473,8 @@
     "composer": "Tierra Mojada",
     "pdf": "/scores/vuelo-abejorro-v2-tierra-mojada.pdf",
     "sourceFile": "vuelo-abejorro-v2-tierra-mojada.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=QTs0Y3LkRKw"
   },
   {
     "id": "esos-bajos",
@@ -813,7 +832,8 @@
     "composer": "Trancazo",
     "pdf": "/scores/nacido-para-ser-salvaje.pdf",
     "sourceFile": "nacido-para-ser-salvaje.pdf",
-    "tono": "Do Mayor"
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=5XORY7z7wco"
   },
   {
     "id": "naranja-dulce",
@@ -821,6 +841,15 @@
     "composer": " ",
     "pdf": "/scores/naranja-dulce.pdf",
     "sourceFile": "Naranja dulce.pdf",
+    "tono": "Do Mayor",
+    "listenUrl": "https://www.youtube.com/watch?v=LHjJWxqYUho"
+  },
+  {
+    "id": "naranja-dulce-banda-pequena-del-valle",
+    "title": "Naranja dulce",
+    "composer": "Pequeña del Valle",
+    "pdf": "/scores/naranja-dulce-banda-pequena-del-valle_compress.pdf",
+    "sourceFile": "naranja-dulce-banda-pequena-del-valle_compress.pdf",
     "tono": "Do Mayor",
     "listenUrl": "https://www.youtube.com/watch?v=LHjJWxqYUho"
   },

@@ -467,6 +467,21 @@
         "id": "m26-nacido-para-ser-salvaje",
         "title": "Nacido para ser salvaje",
         "scoreId": "nacido-para-ser-salvaje"
+      },
+      {
+        "id": "m26-a-mover-el-chikistrikis",
+        "title": "A mover el chikistrikis",
+        "scoreId": "a-mover-el-chikistrikis"
+      },
+      {
+        "id": "m26-amame",
+        "title": "Ámame",
+        "scoreId": "amame"
+      },
+      {
+        "id": "m26-naranja-dulce-banda-pequena-del-valle",
+        "title": "Naranja dulce",
+        "scoreId": "naranja-dulce-banda-pequena-del-valle"
       }
     ]
   }
